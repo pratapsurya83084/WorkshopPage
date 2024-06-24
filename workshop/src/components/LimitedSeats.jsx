@@ -34,7 +34,7 @@ const LimitedSeats = () => {
           </div>
         </div>
       </section>
-      <hr />
+      {/* <hr /> */}
     </div>
   );
 };

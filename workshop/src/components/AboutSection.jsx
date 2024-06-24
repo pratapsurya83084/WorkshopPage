@@ -57,7 +57,7 @@ const AboutSection = () => {
           </div>
         </div>
       </section>
-      <hr />
+      {/* <hr /> */}
     </div>
   );
 };

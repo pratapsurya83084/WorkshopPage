@@ -7,8 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        'custom-brown': '#27272a',
-       
+        'custom-brown': '#1c1917',
+        "custom-gray":"#27272a",
+        
+        "custom-black":"#3f3f46",
+        "footerColor":"#18181b"
       },
     },
   },

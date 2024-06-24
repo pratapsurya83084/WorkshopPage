@@ -68,7 +68,7 @@ const ActionBluePrint = () => {
         </div>
       </section>
 
-      <hr />
+      {/* <hr /> */}
     </div>
   );
 };
