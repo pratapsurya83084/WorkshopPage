@@ -12,3 +12,27 @@ body{
 .slick-next {
   display: none !important;
 }
+
+.radius-yellow{
+  border: solid yellow;
+}
+
+
+/* footer text blinking 1 second each */
+.blinking {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the footer stays on top */
+}

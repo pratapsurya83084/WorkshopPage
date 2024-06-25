@@ -3,13 +3,13 @@ import React from "react";
 const InspiringFeedback = () => {
   return (
     <div>
-      <section className=" body-font">
+      <section className="bg-custom-brown radius-yellow rounded-3xl body-font">
         <div className="container px-5 py-24 mx-auto">
         <h1 className="text-center text-2xl sm:text-3xl font-bold mb-4">Inspiring Feedback</h1>
           <div className="flex flex-wrap  justify-center">
 
             {/* card1 */}
-            <div className="lg:w-[350px] lg:mb-0 p-4 bg-custom-brown text-white m-3   rounded-3xl">
+            <div className="radius-yellow lg:w-[350px] lg:mb-0 p-4 bg-custom-brown text-white m-3   rounded-3xl">
               <div className="h-full text-center">
                 <img
                   alt="testimonial"
@@ -28,7 +28,7 @@ const InspiringFeedback = () => {
               </div>
             </div>
             {/* card2 */}
-            <div className="lg:w-[350px] lg:mb-0 p-4 bg-custom-brown text-white m-3   rounded-3xl">
+            <div className="radius-yellow lg:w-[350px] lg:mb-0 p-4 bg-custom-brown text-white m-3   rounded-3xl">
               <div className="h-full text-center">
                 <img
                   alt="testimonial"
@@ -48,7 +48,7 @@ const InspiringFeedback = () => {
             </div>
 
             {/* card 3 */}
-            <div className="lg:w-[350px] lg:mb-0 p-4 bg-custom-brown text-white m-3   rounded-3xl">
+            <div className="radius-yellow lg:w-[350px] lg:mb-0 p-4 bg-custom-brown text-white m-3   rounded-3xl">
               <div className="h-full text-center">
                 <img
                   alt="testimonial"

@@ -17,17 +17,21 @@ const LimitedSeats = () => {
             </h1>
 
             {/* <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p> */}
-            <div class=" mt-10 flex justify-center">
+           <a href="#razorpay/link">
+
+           <div class=" mt-10 flex justify-center">
               <button className="bg-blue-500 text-white px-4  rounded-xl py-2    hover:text-gray-300 hover:bg-blue-600 focus:border">
                 REGISTER NOW @{" "}
                 <span className="line-through text-black">Rs.1,999/</span>{" "}
                 Rs.199/{" "}
               </button>
             </div>
+           </a>
+            
           </div>
-          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <div class=" lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
-              class="object-cover object-center rounded"
+              class="radius-yellow  object-cover object-center rounded-xl"
               alt="hero"
               src="/public\Limit_seats_img.png"
             />

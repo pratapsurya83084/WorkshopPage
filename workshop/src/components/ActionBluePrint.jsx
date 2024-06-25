@@ -3,8 +3,8 @@ import React from "react";
 const ActionBluePrint = () => {
   return (
     <div>
-      <section className=" body-font">
-        <div className="container px-5 py-14 md:py-20 mx-auto">
+      <section className="bg-custom-brown radius-yellow rounded-3xl  body-font">
+        <div className="container px-5 py-4 md:py-20 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 ">
               Powerfull Action Blueprint
@@ -13,13 +13,13 @@ const ActionBluePrint = () => {
               Enpowerment extravaganza
             </p>
           </div>
-          <div className="flex flex-wrap m-4   justify-center">
+          <div className=" flex flex-wrap m-4   justify-center">
             {/* card1 */}
-            <div className="lg:w-[300px] sm:w-1/2 p-4">
+            <div className="   lg:w-[300px] sm:w-1/2 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="  rounded-3xl inset-0 w-full h-full object-cover object-center"
+                  className="radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
                   src="/public\powerfull_ACtion_img1.png"
                 />
               </div>
@@ -32,7 +32,7 @@ const ActionBluePrint = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="  rounded-3xl inset-0 w-full h-full object-cover object-center"
+                  className="radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
                   src="public\powerfull_Action_img2.png"
                 />
               </div>
@@ -46,7 +46,7 @@ const ActionBluePrint = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="  rounded-3xl inset-0 w-full h-full object-cover object-center"
+                  className="radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
                   src="/public\powerfull_Action_img3.png"
                 />
               </div>
@@ -58,7 +58,7 @@ const ActionBluePrint = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="  rounded-3xl inset-0 w-full h-full object-cover object-center"
+                  className="radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
                   src="public\Powerfull_Action_img4.png"
                 />
               </div>

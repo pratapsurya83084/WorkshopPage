@@ -15,7 +15,7 @@ const RevenuPicture = () => {
             Empowering success with our revenue milestones
           </p>
         </div>
-      <div className="bg-custom-brown container px-5 py-5 mx-auto">
+      <div className="radius-yellow rounded-3xl bg-custom-brown container px-5 py-5 mx-auto">
         <div className="flex justify-center items-center  rounded-lg overflow-hidden">
           <img
             alt="feature"
@@ -54,9 +54,11 @@ const RevenuPicture = () => {
               Tailored Tactical Goals
             </li>
           </ul>
-          <button className="bg-blue-500 p-2 rounded-xl text-sm sm:text-xl md:text-2xl border focus:bg-blue-600">
+          <a href="#razorpay/link">
+          <button className="bg-blue-600 p-2 rounded-xl text-sm sm:text-xl md:text-2xl border focus:bg-blue-600">
             REGISTER FOR WEEKEND TRAINING
           </button>
+          </a>
         </div>
       </div>
     </section>
