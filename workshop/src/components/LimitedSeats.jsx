@@ -19,11 +19,11 @@ const LimitedSeats = () => {
             {/* <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p> */}
            <a href="#razorpay/link">
 
-           <div class=" mt-10 flex justify-center">
-              <button className="bg-blue-500 text-white px-4  rounded-xl py-2    hover:text-gray-300 hover:bg-blue-600 focus:border">
+           <div class="lg:ml-32 mt-0 flex justify-center">
+              <button className="bg-blue-600 font-bold text-white px-4  rounded-xl py-2    hover:text-gray-300 hover:bg-blue-600 focus:border">
                 REGISTER NOW @{" "}
-                <span className="line-through text-black">Rs.1,999/</span>{" "}
-                Rs.199/{" "}
+                <span className="line-through text-black">Rs.2,999/</span>{" "}
+                Rs.299/{" "}
               </button>
             </div>
            </a>

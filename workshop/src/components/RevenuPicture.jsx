@@ -2,18 +2,34 @@ import React from 'react';
 
 const RevenuPicture = () => {
   return (
-    <section className=" body-font text-center">
+    <section className="mt-10 body-font text-center">
       
       <div className="text-2xl font-bold p-2 mb-">
           <h4 className="">
             Unearth the path to earning
-            <strong className="text-yellow-200">1Cr+</strong> in the next
-            <strong className="text-yellow-200">6 months</strong> with your digital journal and unveil a roadmap to sell your first
+            <strong className="text-yellow-200 px-2">1Cr+</strong> in the next
+            <strong className="text-yellow-200 px-2">6 months</strong> with your digital journal and unveil a roadmap to sell your first
             e-book within <strong className="text-yellow-200">1 hour</strong>
           </h4>
-          <p className="text-xl mt-5">
+          {/* <p className="text-xl mt-5">
             Empowering success with our revenue milestones
-          </p>
+          </p> */}
+          <div className="flex justify-center mb-4">
+          <svg
+            width="400"
+            height="30"
+            viewBox="0 0 100 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 15 Q 50 0, 95 15"
+              stroke="yellow"
+              strokeWidth="5"
+              fill="none"
+            />
+          </svg>
+        </div>
         </div>
       <div className="radius-yellow rounded-3xl bg-custom-brown container px-5 py-5 mx-auto">
         <div className="flex justify-center items-center  rounded-lg overflow-hidden">
@@ -24,16 +40,7 @@ const RevenuPicture = () => {
           />
         </div>
         
-        <div className="mb-10">
-          <iframe
-            title="vimeo-player"
-            src="https://player.vimeo.com/video/854930213?h=b157a37779"
-            width="100%"
-            height="360"
-            frameBorder="0"
-            allowFullScreen
-          ></iframe>
-        </div>
+       
 
       
 

@@ -12,6 +12,10 @@ import LearnFourHours  from '../components/LearnFourHours'
 import  SixTestimonials  from '../components/SixTestimonials'
 import CoachSection  from '../components/CoachSection'
 import CompanyLogo   from '../components/CompanyLogo'
+import OurGuarantee  from '../components/OurGuarantee'
+import Promise  from '../components/Promise'
+import OneVideoSection   from '../components/OneVideoSection'
+import BookSection  from '../components/BookSection'
 const Home = () => {
   return (
     <div>
@@ -20,12 +24,15 @@ const Home = () => {
       <LimitedSeats/>
       <InspiringFeedback/>
       <RevenuPicture/>
-     
+     <OneVideoSection/>
       <TransfromativeJourny/>
+      <BookSection/>
       <SeminarSection/>
       <LearnFourHours/>
       <SixTestimonials/>
       <CoachSection/>
+      <OurGuarantee/>
+      <Promise/>
       <Faq/>
       <CompanyLogo/>
       <FooterSection/>

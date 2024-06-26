@@ -20,13 +20,13 @@ const AboutSection = () => {
       </h2>
       <section
         // from-blue-50
-        className=" pb-12 pt-20 sm:pb-16 sm:pt-32 lg:pb-24 xl:pb-32 xl:pt-40"
+        className=" pb-12 pt-4 sm:pb-16 sm:pt-12 lg:pb-24 xl:pb-32 xl:pt-10"
       >
         <div className=" mx-auto max-w-7xl px-6 lg:px-8">
           <div className=" mx-auto  max-w-lg">
             <img
               className="w-full radius-yellow rounded-2xl border border-gray-100 shadow"
-              src="/public\BishopsirAbout_section_workshop_image.png"
+              src="\BishopsirAbout_section_workshop_image.png"
               alt=""
             />
           </div>{" "}

@@ -4,12 +4,29 @@ const InspiringFeedback = () => {
   return (
     <div>
       <section className="bg-custom-brown radius-yellow rounded-3xl body-font">
-        <div className="container px-5 py-24 mx-auto">
-        <h1 className="text-center text-2xl sm:text-3xl font-bold mb-4">Inspiring Feedback</h1>
+       <h1 className=" mt-4 text-center text-2xl sm:text-3xl font-bold mb-0">Inspiring Feedback</h1>
+      <div className="flex justify-center mb-4">
+          <svg
+            width="400"
+            height="30"
+            viewBox="0 0 100 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 15 Q 50 0, 95 15"
+              stroke="yellow"
+              strokeWidth="5"
+              fill="none"
+            />
+          </svg>
+        </div>
+        <div className="container px-5 py-4 mx-auto">
+       
           <div className="flex flex-wrap  justify-center">
 
             {/* card1 */}
-            <div className="radius-yellow lg:w-[350px] lg:mb-0 p-4 bg-custom-brown text-white m-3   rounded-3xl">
+            <div className="radius-yellow lg:w-[350px]   lg:mb-0 p-4 bg-custom-brown text-white m-3   rounded-3xl">
               <div className="h-full text-center">
                 <img
                   alt="testimonial"

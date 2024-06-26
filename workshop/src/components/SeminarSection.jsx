@@ -5,7 +5,7 @@ import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 
 const SeminarSection = () => {
   return (
-    <section className="  radius-yellow bg-custom-brown flex flex-col justify-center rounded-3xl items-center">
+    <section className="mt-10  radius-yellow bg-custom-brown flex flex-col justify-center rounded-3xl items-center">
     {/* section 20 */}
     <h1 className="mt-5 p-4  flex justify-center text-center text-2xl py-6 font-bold ">Who Will Benefit Most from This Seminar?</h1>
     <div className="flex justify-center mb-4">
