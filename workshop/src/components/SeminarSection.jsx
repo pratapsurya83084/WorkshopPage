@@ -23,7 +23,11 @@ const SeminarSection = () => {
         <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
       </div>
       <p className="p-3 md:p-3">
-      Individuals with startup ventures or established <br /> businesses
+      Individuals with Startup Ventures or Established Businesses  
+       or Sales professionals  and management students Perfect     
+        for those seeking to improve their sales and 
+      negotiation skills 
+       for business growth
       </p>
     </div>
     <div className="radius-yellow rounded-xl px-2 bg-gray flex items-center space-x-2 mt-2">
@@ -31,8 +35,12 @@ const SeminarSection = () => {
         <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
       </div>
       <p className="p-3 md:p-3">
-      Owners of small enterprises seek to make informed decisions that lead to <br />
-       increased profitability and scalability.
+      Owners of Small Enterprises: Ideal for
+       small business owners  
+        aiming to make informed
+        decisions that lead to 
+      increased 
+      profitability and scalability
       </p>
     </div>
     <div className="radius-yellow rounded-xl px-2 bg-gray flex items-center space-x-2 mt-2">
@@ -40,19 +48,21 @@ const SeminarSection = () => {
         <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
       </div>
       <p className="p-3 md:p-3">
-      Executives, managers, and professionals in corporate settings looking to <br />
-       enhance their leadership and decision-making skills
+      Executives, Managers, and Professionals in Corporate Settings:
+       Great for those looking to enhance their leadership and 
+        decision-making 
+      skills to drive their teams and businesses forward
 
       </p>
     </div>
-    <div className="radius-yellow rounded-xl px-2 bg-gray flex items-center space-x-2 mt-2">
+    {/* <div className="radius-yellow rounded-xl px-2 bg-gray flex items-center space-x-2 mt-2">
       <div className="text-white h-6 w-6 flex justify-center">
         <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
       </div>
       <p className="p-3 md:p-3">
-      Executives, managers, and professionals in corporate settings looking to enhance their leadership and decision-making skills.
+      Entrepreneurs seeking advice on cost-effective marketing strategies to boost revenue
       </p>
-    </div>
+    </div> */}
       </div>
 
       {/* right side text for large screen */}
@@ -70,7 +80,7 @@ const SeminarSection = () => {
       </div>
       </div>
       <p className="p-3 md:p-3">
-      If You Are Not Resistant To Adopting New Strategies
+      Those Resistant to Adopting New Strategies: If you're not open to learning new methods, this workshop isn't for you.
       </p>
     </div>
     <div className=" radius-yellow px-2 rounded-xl bg-gray flex items-center space-x-2 mt-2">
@@ -83,7 +93,7 @@ const SeminarSection = () => {
 </div>
       </div>
       <p className="p-3 md:p-3">
-      If You Are Not a Leader
+      Non-Leaders: Individuals who don't see themselves as leaders may not benefit from this training
       </p>
     </div>
 
@@ -99,7 +109,7 @@ const SeminarSection = () => {
       </div>
       </div>
       <p className="p-3 md:p-3">
-      If You Are Not Serious About Your Business
+      Individuals Not Serious About Their Business and Future Grwoth: This workshop is designed for those committed to making significant improvements
       </p>
     </div>
     <div className="radius-yellow px-2 rounded-xl bg-gray flex items-center space-x-2 mt-2">
@@ -114,7 +124,7 @@ const SeminarSection = () => {
       </div>
       </div>
       <p className="p-3 md:p-3">
-      If You Are Not Unwilling To Engage In Active Learning and Implementation
+      Those Unwilling to Engage in Active Learning and Implementation: Active participation and application of the skills learned are crucial for success
       </p>
     </div>
       </div>

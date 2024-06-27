@@ -37,7 +37,7 @@ const TransfromativeJourny = () => {
                 alt="Networking opportunity"
               />
               <h1 className="text-center text-white">
-                Digital Journal for your next earning 1Cr+ in the next 6 months
+              15+  Engage in hands-on activities and real-life case studies
               </h1>
             </div>
           </div>
@@ -51,7 +51,8 @@ const TransfromativeJourny = () => {
                 alt="Networking opportunity"
               />
               <h1 className="text-center text-white">
-                Earn with digital AI in just 30 minutes
+              20+ Receive comprehensive materials
+
               </h1>
             </div>
           </div>
@@ -64,7 +65,8 @@ const TransfromativeJourny = () => {
                 alt="Networking opportunity"
               />
               <h1 className="text-center text-white">
-              Learn in just 2 Hour to make your own website free 
+              30+ Tools help to expand your professional network
+ 
               </h1>
             </div>
           </div>
@@ -78,7 +80,8 @@ const TransfromativeJourny = () => {
                 alt="Networking opportunity"
               />
               <h1 className="text-center text-white">
-              networking oppourtunity to get next customer
+              35+ Support to ensure continuous improvement.
+
               </h1>
             </div>
           </div>
@@ -91,8 +94,8 @@ const TransfromativeJourny = () => {
                 alt="Networking opportunity"
               />
               <h1 className="text-center text-white">
-              Roadmap to sell your first E-book at just 1 Hour and to earn
-              10k+$
+              72+  Activities how others have applied these strategies
+
               </h1>
             </div>
           </div>
@@ -106,7 +109,7 @@ const TransfromativeJourny = () => {
                 alt="Networking opportunity"
               />
               <h1 className="text-center text-white">
-              Save your 50K +$ with Personalized Leadership Assesment Toolkit
+              100+ Strategies to communicate persuasively and confidently
               </h1>
             </div>
           </div>

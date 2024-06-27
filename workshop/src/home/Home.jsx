@@ -14,7 +14,7 @@ import CoachSection  from '../components/CoachSection'
 import CompanyLogo   from '../components/CompanyLogo'
 import OurGuarantee  from '../components/OurGuarantee'
 import Promise  from '../components/Promise'
-import OneVideoSection   from '../components/OneVideoSection'
+import SinglePicture   from '../components/SinglePicture'
 import BookSection  from '../components/BookSection'
 // import OfferPrice  from '../components/OfferPrice'
 import ScreenshotPicture  from '../components/ScreenshotPicture'
@@ -28,7 +28,7 @@ const Home = () => {
       <LimitedSeats/>
       <InspiringFeedback/>
       <RevenuPicture/>
-     <OneVideoSection/>
+     <SinglePicture/>
      {/* <OfferPrice/> */}
       <TransfromativeJourny/>
       <BookSection/>

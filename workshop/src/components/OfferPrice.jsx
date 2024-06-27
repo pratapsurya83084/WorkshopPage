@@ -36,11 +36,11 @@ const OfferPrice = () => {
         </div>
 
         <div className="text-center">
-          <h2 className="text-2xl lg:text-3xl font-bold p-2">Regular Price: ₹2499/-</h2>
+          <h2 className="text-2xl lg:text-3xl font-bold p-2">Regular Price: ₹1499/-</h2>
         </div>
 
         <div className="text-center">
-          <h1 className="text-yellow-200 radius-yellow text-xl sm:text-2xl lg:text-3xl font-bold m-4 p-2 rounded-xl mt-4 lg:mt-6">TODAY'S OFFER PRICE: ₹299/-</h1>
+          <h1 className="text-yellow-200 radius-yellow text-xl sm:text-2xl lg:text-3xl font-bold m-4 p-2 rounded-xl mt-4 lg:mt-6">TODAY'S OFFER PRICE: ₹199/-</h1>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-6 mt-5">

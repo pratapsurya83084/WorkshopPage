@@ -54,7 +54,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.498
                   </button>
                 </div>
@@ -70,7 +70,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.652
                   </button>
                 </div>
@@ -94,7 +94,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.859
                   </button>
                 </div>
@@ -110,7 +110,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.999
                   </button>
                 </div>
@@ -134,7 +134,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.652
                   </button>
                 </div>
@@ -150,7 +150,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.498
                   </button>
                 </div>
@@ -175,7 +175,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.859
                   </button>
                 </div>
@@ -191,7 +191,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.999
                   </button>
                 </div>
@@ -214,7 +214,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.498
                   </button>
                 </div>
@@ -230,7 +230,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.859
                   </button>
                 </div>
@@ -253,7 +253,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.999
                   </button>
                 </div>
@@ -269,7 +269,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.859
                   </button>
                 </div>
@@ -294,7 +294,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.498
                   </button>
                 </div>
@@ -310,7 +310,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.652
                   </button>
                 </div>
@@ -334,7 +334,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.859
                   </button>
                 </div>
@@ -350,7 +350,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.999
                   </button>
                 </div>
@@ -374,7 +374,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.498
                   </button>
                 </div>
@@ -390,7 +390,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.652
                   </button>
                 </div>
@@ -414,7 +414,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.999
                   </button>
                 </div>
@@ -430,7 +430,7 @@ const BookSection = () => {
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-400 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.498
                   </button>
                 </div>

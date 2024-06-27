@@ -10,7 +10,9 @@ const ActionBluePrint = () => {
               Powerfull Action Blueprint
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-xl ">
-              Enpowerment extravaganza
+            More Than 1,03,000 Students & Business Enthusiasts Rated My Coaching Style
+Discover What Awaits You
+
             </p>
             <div className="flex justify-center mb-4">
           <svg

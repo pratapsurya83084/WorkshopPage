@@ -1,8 +1,8 @@
-import React, { useEffect,useState } from "react";
+import React, { useEffect, useState } from "react";
 import { CheckIcon } from "@heroicons/react/24/solid";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 const AboutSection = () => {
-
   const [nextSaturday, setNextSaturday] = useState(null);
 
   // Function to calculate the next Saturday date
@@ -30,8 +30,9 @@ const AboutSection = () => {
 
     // Calculate milliseconds until next Saturday midnight
     const today = new Date();
-    const timeUntilNextSaturday = (7 - today.getDay()) % 7 * 24 * 60 * 60 * 1000;
-    
+    const timeUntilNextSaturday =
+      ((7 - today.getDay()) % 7) * 24 * 60 * 60 * 1000;
+
     // Set interval to update next Saturday every week
     const intervalId = setInterval(updateNextSaturday, timeUntilNextSaturday);
 
@@ -44,25 +45,28 @@ const AboutSection = () => {
   }
 
   // Format nextSaturday date and day
-  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-  const formattedDate = nextSaturday.toLocaleDateString('en-US', options);
+  const options = {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  };
+  const formattedDate = nextSaturday.toLocaleDateString("en-US", options);
 
   return (
     <div>
-      <h1 className="bg-custom-brown   text-center p-6 text-2xl font-bold ">
-        A Workshop Designed For Student Entrepreneurs{" "}
-        <b className="text-yellow-300">Seeking to achieved 1 Cr+</b> Sales in next 6
-        months{" "}
+      <h1 className="bg-custom-brown   text-center p-6 text-xl sm:text-3xl font-bold ">
+        Transform Your Sales & Negotiation Skills in{" "}
+        <b className="text-yellow-200 font-bold">3 Hours</b> Essential for
+        Companies, Professionals, and Students!
       </h1>
 
-      <h2 className="text-center md:text-xl p-6">
+      <h2 className="text-center text-xl sm:text-2xl p-6 font-bold">
         {" "}
-        Unlock the exclusive AI-driven framework empowered by 100+ Networking
-        powerhouse strategies to earn <b className="text-yellow-300 ">
-          1 Cr+
-        </b>{" "}
-        in the next <b className="text-yellow-300">6 months</b> with
-        personalised leadership assesment toolkit
+        A workshop to gain 200+ deep insights and actionable strategies to
+        elevate your sales and negotiation skills and drive your business to{" "}
+        <b className="text-yellow-200 font-bold "> 1 Cr+ </b>new heights in the
+        <b className="text-yellow-200 px-2">next 6 months</b>
       </h2>
       <section
         // from-blue-50
@@ -78,65 +82,100 @@ const AboutSection = () => {
           </div>{" "}
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="p-2 title-font tracking-widest text-xl font-bold ">
-              IGNITE YOUR LEADERSHIP PATH
+              IGNITE YOUR SALES LEADERSHIP PATH
             </h2>
-            <h1 className="p-4">
-              2-DAY LIVE WEEKEND WORKSHOP With <b>Mr.Bishop Adhikari </b> <br />
+            <h1 className="p-2 sm:text-xl font-bold">
+              3 Hours Weekend Workshop with Me? Are you ready to improve your
+              next negotiation skill set?
+              {/* 2-DAY LIVE WEEKEND WORKSHOP With <b>Mr.Bishop Adhikari </b> <br /> */}
             </h1>
             {/* add point */}
-            <div className="bg-custom-brown flex-col justify-center items-center p-4 rounded-3xl radius-yellow">
-            <div className="sm:p-2 flex  items-center  space-x-2 mt-2">
-              <div className="h-5 w-5 flex justify-center bg-green-500 rounded-full">
-                <CheckIcon className="h-4 w-4 font-bold text-white" />
-              </div>
-              <h1 className="sm:p-2 sm:text-xl ">
-                Entreprenour Coach and social change advocate <br />
-              </h1>
+            <h1 className="text-2xl font-bold mt-2">
+              Why Attend This Workshop?
+            </h1>
+            <div className="flex justify-center mb-4">
+              <svg
+                width="200"
+                height="20"
+                viewBox="0 0 100 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 15 Q 50 0, 95 15"
+                  stroke="yellow"
+                  strokeWidth="5"
+                  fill="none"
+                />
+              </svg>
             </div>
-
-            <div className="sm:p-2 flex items-center space-x-2 mt-2">
-              <div className="h-5 w-5 flex justify-center bg-green-500 rounded-full">
-                <CheckIcon className="h-4 w-4 font-bold text-white" />
-              </div>
-              <h1 className="sm:p-2 sm:text-xl">
-                Discover what awaits you Unlocks 2 Days of Live <br />
-              </h1>
-            </div>
-
-
-
-            <div className=" sm:p-2 flex items-center space-x-2 mt-2">
-              <div className="h-5 w-5 mb-5 flex justify-center bg-green-500 rounded-full">
-                <CheckIcon className="h-5 w-6 font-bold text-white" />
-              </div>
-              <h1 className=" sm:text-xl overflow-hidden">
-              training Enpower Your Manangement,Entrepreneurship 
-              ,Leadership and Social Impact Skills Workshop
-              </h1>
-            </div>
-
-        
-            </div>
-
-
-             <h1 className="text-red-500 mt-4 font-bold text-xl"> Starts on 
-           
-            <span className="px-2">  
-            {formattedDate}
-            {/* {nextSaturday.toLocaleDateString('en-US', { weekday: 'long' })} */}
-              </span>    {/* & 08/10/2023 */}
-                | 7 AM - 9 PM</h1>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a href="#razorpay">
-            <div className="flex mt-6 items-center pb-5  border-gray-100 mb-5">
-                <div className="flex">
-                  <button className="bg-blue-500 text-white px-4  rounded-xl py-2    hover:text-gray-300 hover:bg-blue-600 focus:border">
-                    REGISTER NOW @{" "}
-                    <span className="line-through text-black">Rs.2,999/</span>{" "}
-                    Rs.299/{" "}
-                  </button>
+            {/* why Attend this workshop */}
+            <div className="bg-custom-brown flex-col justify-center space-y-4 items-center p-4 rounded-3xl radius-yellow">
+              <div className="sm:p-2 flex  items-center  space-x-2 mt-2">
+                <div className="h-5 w-6 flex justify-center mb-5 bg-green-500 rounded-full">
+                  <CheckIcon className="h-4 w-4 font-bold text-white" />
                 </div>
+                <h1 className="sm:p-2 sm:text-xl font-bold ">
+                  Tackle how common sales and negotiation challenges stop your
+                  business. <br />
+                </h1>
               </div>
+
+              <div className="sm:p-2 flex items-center space-x-2 mt-2">
+                <div className="h-5 w-7 flex justify-center  mb-5 bg-green-500 rounded-full">
+                  <CheckIcon className="h-4 w-4 font-bold text-white" />
+                </div>
+                <h1 className="sm:p-2 sm:text-xl font-bold ">
+                  Why do people compromise their quality or efficiency, and
+                  learn how to improve? <br />
+                </h1>
+              </div>
+
+              <div className=" sm:p-2 flex items-center space-x- mt-2">
+                <div className="h-5 w-5  flex justify-center  mb-5 bg-green-500 rounded-full">
+                  <CheckIcon className="h-5 w-6 font-bold text-white" />
+                </div>
+                <h1 className="sm:mr-10 sm:text-xl overflow-hidden font-bold ">
+                  Why is enhancing your profit margins with impactful
+                  negotiation strategies required?
+                </h1>
+              </div>
+
+              <div className=" sm:p-2 flex items-center space-x-2 mt-2">
+                <div className="h-5 w-5  flex justify-center  mb-5 bg-green-500 rounded-full">
+                  <CheckIcon className="h-5 w-6 font-bold text-white" />
+                </div>
+                <h1 className=" sm:text-xl overflow-hidden font-bold ">
+                  Unlock your guaranteed outcomes with the workshop's actionable
+                  sales and negotiation steps.
+                </h1>
+              </div>
+            </div>
+
+            <h1 className="text-red-500 mt-8 font-bold text-xl md:text-2xl">
+              {" "}
+              Starts on
+              <span className="px-2">
+                {formattedDate}
+                {/* {nextSaturday.toLocaleDateString('en-US', { weekday: 'long' })} */}
+              </span>{" "}
+              {/* & 08/10/2023 */}| 7 AM - 9 PM
+            </h1>
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              <a href="#razorpay">
+                <div className="flex mt- items-center pb-5  border-gray-100 mb-5">
+                  <div className="flex justify-center md:mt- sm:mt-8 py-2 sm:px-2">
+                    <button className="bg-blue-600 text-white md:text-xl font-bold py-2 px-6 rounded-xl md:mb-4 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
+                      <span className="flex-grow text-center">
+                        Action Now for ₹299
+                      </span>
+                      <FontAwesomeIcon
+                        icon={faGreaterThan}
+                        className="bg-white text-blue-500 px-4 p-2 rounded-lg"
+                      />
+                    </button>
+                  </div>
+                </div>
               </a>
             </div>
           </div>
@@ -144,8 +183,6 @@ const AboutSection = () => {
       </section>
 
       {/* hh */}
-
-     
     </div>
   );
 };
