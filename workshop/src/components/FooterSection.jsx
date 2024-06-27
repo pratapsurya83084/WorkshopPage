@@ -5,52 +5,49 @@ import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 const FooterSection = () => {
  
  
-    const [displayDate, setDisplayDate] = useState('');
+  const [nextSaturday, setNextSaturday] = useState(null);
 
-    useEffect(() => {
-      const updateDateDisplay = () => {
-        const today = new Date();
-        let targetDate = new Date('2024-07-07');
-  
-        // If the current date is past the target date, update the target date to the next 15 days increment
-        while (today > targetDate) {
-          targetDate.setDate(targetDate.getDate() + 15);
-        }
-  
-        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-        const formattedDate = targetDate.toLocaleDateString(undefined, options);
-  
-        setDisplayDate(formattedDate);
-      };
-  
-      updateDateDisplay();
-  
-      // Calculate the time until the next update (15 days)
-      const now = new Date();
-      const initialTargetDate = new Date('2024-07-07');
-      let nextUpdateDate = new Date(initialTargetDate);
-  
-      // Increment the nextUpdateDate by 15 days until it's in the future
-      while (now > nextUpdateDate) {
-        nextUpdateDate.setDate(nextUpdateDate.getDate() + 15);
-      }
-  
-      const timeToNextUpdate = nextUpdateDate - now;
-  
-      // Set a timeout for the first update
-      const timeoutId = setTimeout(() => {
-        updateDateDisplay();
-  
-        // Set an interval to update the date display every 15 days
-        const intervalId = setInterval(updateDateDisplay, 15 * 24 * 60 * 60 * 1000);
-  
-        // Clear the timeout and return the interval cleanup function
-        clearTimeout(timeoutId);
-        return () => clearInterval(intervalId);
-      }, timeToNextUpdate);
-  
-      return () => clearTimeout(timeoutId);
-    }, []);
+  // Function to calculate the next Saturday date
+  const calculateNextSaturday = () => {
+    const today = new Date();
+    let nextSaturdayDate = new Date(today);
+
+    // Calculate days until next Saturday (6 for Saturday)
+    const daysUntilNextSaturday = (6 - today.getDay() + 7) % 7;
+    nextSaturdayDate.setDate(today.getDate() + daysUntilNextSaturday);
+
+    return nextSaturdayDate;
+  };
+
+  useEffect(() => {
+    // Calculate next Saturday when component mounts
+    const initialNextSaturday = calculateNextSaturday();
+    setNextSaturday(initialNextSaturday);
+
+    // Update next Saturday at midnight
+    const updateNextSaturday = () => {
+      const nextSaturdayDate = calculateNextSaturday();
+      setNextSaturday(nextSaturdayDate);
+    };
+
+    // Calculate milliseconds until next Saturday midnight
+    const today = new Date();
+    const timeUntilNextSaturday = (7 - today.getDay()) % 7 * 24 * 60 * 60 * 1000;
+    
+    // Set interval to update next Saturday every week
+    const intervalId = setInterval(updateNextSaturday, timeUntilNextSaturday);
+
+    // Clean up interval on component unmount
+    return () => clearInterval(intervalId);
+  }, []);
+
+  if (!nextSaturday) {
+    return <div>Loading...</div>; // Initial loading state
+  }
+
+  // Format nextSaturday date and day
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  const formattedDate = nextSaturday.toLocaleDateString('en-US', options);
     return (
     <footer>
     {/* sm:flex-row sm:justify-between */}
@@ -61,7 +58,7 @@ const FooterSection = () => {
     {/* Blinking text */}
     <h2 className='blinking text-center'>Only 2 Seats Left</h2>
     </div>
-     <p className=' font-bold px-2 text-center'>Enrollment closes on 5.00 AM  {displayDate}</p>
+     <p className=' font-bold px-2 text-center'>Enrollment closes on 5.00 AM  {formattedDate}</p>
   </div>
   
   {/* action button */}

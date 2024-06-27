@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import OfferPrice  from '../components/OfferPrice'
 const BookSection = () => {
   const settings = {
     dots: true,
@@ -439,7 +439,12 @@ const BookSection = () => {
             </div>
           </div>
         </Slider>
+        
       </div>
+
+
+      {/* offerprice counter section */}
+      <OfferPrice/>
     </div>
   );
 };

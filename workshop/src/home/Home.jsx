@@ -16,6 +16,10 @@ import OurGuarantee  from '../components/OurGuarantee'
 import Promise  from '../components/Promise'
 import OneVideoSection   from '../components/OneVideoSection'
 import BookSection  from '../components/BookSection'
+// import OfferPrice  from '../components/OfferPrice'
+import ScreenshotPicture  from '../components/ScreenshotPicture'
+import PictureSection  from '../components/PictureSection'
+import TextCards  from '../components/TextCards'
 const Home = () => {
   return (
     <div>
@@ -25,8 +29,12 @@ const Home = () => {
       <InspiringFeedback/>
       <RevenuPicture/>
      <OneVideoSection/>
+     {/* <OfferPrice/> */}
       <TransfromativeJourny/>
       <BookSection/>
+      <ScreenshotPicture/>
+      <PictureSection/>
+      <TextCards/>
       <SeminarSection/>
       <LearnFourHours/>
       <SixTestimonials/>

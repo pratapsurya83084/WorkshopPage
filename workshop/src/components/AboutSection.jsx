@@ -1,6 +1,52 @@
-import React from "react";
+import React, { useEffect,useState } from "react";
 import { CheckIcon } from "@heroicons/react/24/solid";
+
 const AboutSection = () => {
+
+  const [nextSaturday, setNextSaturday] = useState(null);
+
+  // Function to calculate the next Saturday date
+  const calculateNextSaturday = () => {
+    const today = new Date();
+    let nextSaturdayDate = new Date(today);
+
+    // Calculate days until next Saturday (6 for Saturday)
+    const daysUntilNextSaturday = (6 - today.getDay() + 7) % 7;
+    nextSaturdayDate.setDate(today.getDate() + daysUntilNextSaturday);
+
+    return nextSaturdayDate;
+  };
+
+  useEffect(() => {
+    // Calculate next Saturday when component mounts
+    const initialNextSaturday = calculateNextSaturday();
+    setNextSaturday(initialNextSaturday);
+
+    // Update next Saturday at midnight
+    const updateNextSaturday = () => {
+      const nextSaturdayDate = calculateNextSaturday();
+      setNextSaturday(nextSaturdayDate);
+    };
+
+    // Calculate milliseconds until next Saturday midnight
+    const today = new Date();
+    const timeUntilNextSaturday = (7 - today.getDay()) % 7 * 24 * 60 * 60 * 1000;
+    
+    // Set interval to update next Saturday every week
+    const intervalId = setInterval(updateNextSaturday, timeUntilNextSaturday);
+
+    // Clean up interval on component unmount
+    return () => clearInterval(intervalId);
+  }, []);
+
+  if (!nextSaturday) {
+    return <div>Loading...</div>; // Initial loading state
+  }
+
+  // Format nextSaturday date and day
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  const formattedDate = nextSaturday.toLocaleDateString('en-US', options);
+
   return (
     <div>
       <h1 className="bg-custom-brown   text-center p-6 text-2xl font-bold ">
@@ -73,17 +119,21 @@ const AboutSection = () => {
             </div>
 
 
-             <h1 className="text-red-500 mt-4 font-bold text-xl"> Starts on Saturday 07/10/2023 
-                {/* & 08/10/2023 */}
-                | 6 AM - 7 PM</h1>
+             <h1 className="text-red-500 mt-4 font-bold text-xl"> Starts on 
+           
+            <span className="px-2">  
+            {formattedDate}
+            {/* {nextSaturday.toLocaleDateString('en-US', { weekday: 'long' })} */}
+              </span>    {/* & 08/10/2023 */}
+                | 7 AM - 9 PM</h1>
             <div className="mt-10 flex items-center justify-center gap-x-6">
             <a href="#razorpay">
             <div className="flex mt-6 items-center pb-5  border-gray-100 mb-5">
                 <div className="flex">
                   <button className="bg-blue-500 text-white px-4  rounded-xl py-2    hover:text-gray-300 hover:bg-blue-600 focus:border">
                     REGISTER NOW @{" "}
-                    <span className="line-through text-black">Rs.1,999/</span>{" "}
-                    Rs.199/{" "}
+                    <span className="line-through text-black">Rs.2,999/</span>{" "}
+                    Rs.299/{" "}
                   </button>
                 </div>
               </div>
