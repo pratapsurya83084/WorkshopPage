@@ -39,7 +39,7 @@ const SinglePicture = () => {
               <CheckIcon className="h-4 w-4 text-white" />
             </div>
             <h1 className="p-2">
-            Elevate your sales game with our 3-hour worksho
+            Elevate your sales game with our 3-hour workshop
             </h1>
           </div>
 
@@ -57,7 +57,7 @@ const SinglePicture = () => {
               <CheckIcon className="h-4 w-4 text-white" />
             </div>
             <h1 className="p-2">
-            Maximize your potential in 3 hours!
+            Maximize your potential in 3-hours!
             </h1>
           </div>
 
@@ -66,7 +66,7 @@ const SinglePicture = () => {
               <CheckIcon className="h-4 w-4 text-white" />
             </div>
             <h1 className="p-2">
-            Achieve more with 3 hours of training
+            Achieve more with 3-hours of training
             </h1>
           </div>
 
@@ -78,7 +78,7 @@ const SinglePicture = () => {
               <CheckIcon className="h-4 w-4 text-white" />
             </div>
             <h1 className="p-2">
-            Negotiate like a pro in 3 hours
+            Negotiate like a pro in 3-hours
             </h1>
           </div>
           
@@ -87,7 +87,7 @@ const SinglePicture = () => {
               <CheckIcon className="h-4 w-4 text-white" />
             </div>
             <h1 className="p-2">
-            Learn top strategies in 3 hours
+            Learn top strategies in 3-hours
             </h1>
           </div>
           
@@ -96,7 +96,7 @@ const SinglePicture = () => {
               <CheckIcon className="h-4 w-4 text-white" />
             </div>
             <h1 className="p-2">
-            Gain the tools you need in 3 hours
+            Gain the tools you need in 3-hours
             </h1>
           </div>
           
@@ -105,7 +105,7 @@ const SinglePicture = () => {
               <CheckIcon className="h-4 w-4 text-white" />
             </div>
             <h1 className="p-2">
-            Become a top performer in just 3 hours
+            Become a top performer in just 3-hours
             </h1>
           </div>
         </div>

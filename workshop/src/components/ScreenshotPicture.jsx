@@ -4,9 +4,10 @@ const ScreenshotPicture = () => {
   return (
     <div>
       <h1 className="text-center text-xl md:text-2xl font-bold p-4 mt-10">
-        Ignite your inner Visionary and join our exclusive workshop to scale
-        your buisness and unleash your full potential -just like this empowered
-        entrepreneurs who transformed their futures
+        Ignite your inner visionary and join our exclusive workshop to scale
+        your buisness and career unleash your full potential
+         {/* -just like this empowered
+        entrepreneurs who transformed their futures */}
         <div className="flex justify-center mb-4">
           <svg
             width="300"

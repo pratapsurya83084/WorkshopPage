@@ -40,7 +40,7 @@ const LearnFourHours = () => {
             <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               02
             </div>
-            <div className="font-bold px-4 py-7">
+            <div className="font-bold px-4 mt-2 py-7">
             1+ Hour Free Consultation business analytic session with me
 
             </div>
@@ -51,7 +51,7 @@ const LearnFourHours = () => {
             <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               03
             </div>
-            <div className="font-bold px-4 py-7">
+            <div className="font-bold px-4 mt-2 py-7">
             5+ Access to a Private Networking Group
             </div>
           </div>

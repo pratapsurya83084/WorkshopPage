@@ -68,27 +68,40 @@ const AboutSection = () => {
         <b className="text-yellow-200 font-bold "> 1 Cr+ </b>new heights in the
         <b className="text-yellow-200 px-2">next 6 months</b>
       </h2>
-      <section
-        // from-blue-50
-        className=" pb-12 pt-4 sm:pb-16 sm:pt-12 lg:pb-24 xl:pb-32 xl:pt-10"
-      >
+
+      {/* flex-row */}
+      <div className="md:mt-10 md:flex flex-row justify-center items-center gap-5 ">
+        {/* show small size md:hidden */}
+        <div className="p-5 flex justify-center  md:hidden">
+          <img
+            className=" h-60 radius-yellow rounded-3xl"
+            src="/BishopsirAbout_section_workshop_image.png"
+            alt=""
+          />
+        </div>
+
+        <div className="px-5 flex flex-col justify-center items-center">
+          <h2 className="text-center md:text-left title-font tracking-widest text-xl font-bold">
+            IGNITE YOUR SALES LEADERSHIP PATH
+          </h2>
+          <h1 className="text-center md:text-left py-2 sm:text-xl font-semibold">
+            3 Hours Weekend Workshop with Me? Are you <br />
+            ready to improve your next negotiation skill set?
+          </h1>
+        </div>
+
+        <div className="p-5">
+          <img
+            className="hidden md:flex h-60  rounded-3xl"
+            src="/BishopsirAbout_section_workshop_image.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <section className=" pb-12 pt- sm:pb-16 sm:pt-12 lg:pb-24 xl:pb-32 xl:pt-10">
         <div className=" mx-auto max-w-7xl px-6 lg:px-8">
-          <div className=" mx-auto  max-w-lg">
-            <img
-              className="w-full radius-yellow rounded-2xl border border-gray-100 shadow"
-              src="\BishopsirAbout_section_workshop_image.png"
-              alt=""
-            />
-          </div>{" "}
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="p-2 title-font tracking-widest text-xl font-bold ">
-              IGNITE YOUR SALES LEADERSHIP PATH
-            </h2>
-            <h1 className="p-2 sm:text-xl font-bold">
-              3 Hours Weekend Workshop with Me? Are you ready to improve your
-              next negotiation skill set?
-              {/* 2-DAY LIVE WEEKEND WORKSHOP With <b>Mr.Bishop Adhikari </b> <br /> */}
-            </h1>
             {/* add point */}
             <h1 className="text-2xl font-bold mt-2">
               Why Attend This Workshop?
@@ -115,9 +128,10 @@ const AboutSection = () => {
                 <div className="h-5 w-6 flex justify-center mb-5 bg-green-500 rounded-full">
                   <CheckIcon className="h-4 w-4 font-bold text-white" />
                 </div>
-                <h1 className="sm:p-2 sm:text-xl font-bold ">
-                  Tackle how common sales and negotiation challenges stop your
-                  business. <br />
+                {/* 1st point */}
+                <h1 className="sm:p-2 sm:text-xl font-bold ">  
+                  Why is enhancing your profit margins with impactful
+                  negotiation strategies required? <br />
                 </h1>
               </div>
 
@@ -125,6 +139,7 @@ const AboutSection = () => {
                 <div className="h-5 w-7 flex justify-center  mb-5 bg-green-500 rounded-full">
                   <CheckIcon className="h-4 w-4 font-bold text-white" />
                 </div>
+                {/* 2st point */}
                 <h1 className="sm:p-2 sm:text-xl font-bold ">
                   Why do people compromise their quality or efficiency, and
                   learn how to improve? <br />
@@ -135,9 +150,10 @@ const AboutSection = () => {
                 <div className="h-5 w-5  flex justify-center  mb-5 bg-green-500 rounded-full">
                   <CheckIcon className="h-5 w-6 font-bold text-white" />
                 </div>
-                <h1 className="sm:mr-10 sm:text-xl overflow-hidden font-bold ">
-                  Why is enhancing your profit margins with impactful
-                  negotiation strategies required?
+                {/* 3rd point */}
+                <h1 className="sm:ml-4 sm:text-xl overflow-hidden font-bold ">
+                Tackle how common sales and negotiation challenges stop your
+                business.
                 </h1>
               </div>
 
@@ -145,6 +161,7 @@ const AboutSection = () => {
                 <div className="h-5 w-5  flex justify-center  mb-5 bg-green-500 rounded-full">
                   <CheckIcon className="h-5 w-6 font-bold text-white" />
                 </div>
+                {/* 4th point */}
                 <h1 className=" sm:text-xl overflow-hidden font-bold ">
                   Unlock your guaranteed outcomes with the workshop's actionable
                   sales and negotiation steps.
@@ -162,12 +179,12 @@ const AboutSection = () => {
               {/* & 08/10/2023 */}| 7 AM - 9 PM
             </h1>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a href="https://rzp.io/l/badecisionmc">
+              <a href="https://rzp.io/l/badecisionmc">
                 <div className="flex mt- items-center pb-5  border-gray-100 mb-5">
                   <div className="flex justify-center md:mt- sm:mt-8 py-2 sm:px-2">
                     <button className="bg-blue-600 text-white md:text-xl font-bold py-2 px-6 rounded-xl md:mb-4 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
                       <span className="flex-grow text-center">
-                        Action Now for ₹299
+                        Action Now for ₹199
                       </span>
                       <FontAwesomeIcon
                         icon={faGreaterThan}
@@ -182,9 +199,21 @@ const AboutSection = () => {
         </div>
       </section>
 
-      {/* hh */}
+   
     </div>
   );
 };
 
+
+
+
 export default AboutSection;
+
+
+
+
+
+
+
+
+

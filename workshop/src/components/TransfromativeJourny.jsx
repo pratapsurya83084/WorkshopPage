@@ -7,8 +7,8 @@ const TransfromativeJourny = () => {
         <div className="flex flex-col w-full mb-2">
           {/* Heading and Subheading are removed */}
           <h1 className="md:text-3xl text-center font-bold">
-            Get a glimpse of the transformative journey that awaits you at our
-            2-day weekend workshop{" "}
+            Get a glimpse of the transformative journey that awaits you at 
+            this 3-hours weekend workshop{" "}
           </h1>
           <div className="flex justify-center mb-4">
             <svg
@@ -37,7 +37,8 @@ const TransfromativeJourny = () => {
                 alt="Networking opportunity"
               />
               <h1 className="text-center text-white">
-              15+  Engage in hands-on activities and real-life case studies
+              15+  Engage in real-life case studies
+              {/* hands-on activities and */}
               </h1>
             </div>
           </div>
@@ -80,7 +81,7 @@ const TransfromativeJourny = () => {
                 alt="Networking opportunity"
               />
               <h1 className="text-center text-white">
-              35+ Support to ensure continuous improvement.
+              35+ Support to ensure continuous improvement
 
               </h1>
             </div>
@@ -94,7 +95,8 @@ const TransfromativeJourny = () => {
                 alt="Networking opportunity"
               />
               <h1 className="text-center text-white">
-              72+  Activities how others have applied these strategies
+              {/* these */}
+              72+  Activities how others have applied  strategies
 
               </h1>
             </div>
@@ -109,7 +111,8 @@ const TransfromativeJourny = () => {
                 alt="Networking opportunity"
               />
               <h1 className="text-center text-white">
-              100+ Strategies to communicate persuasively and confidently
+              100+ Strategies to communicate persuasively 
+              {/* and confidently */}
               </h1>
             </div>
           </div>

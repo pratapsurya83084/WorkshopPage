@@ -45,13 +45,13 @@ const RevenuPicture = () => {
 
         <div className="text-2xl">
           <ul className="list-disc list-inside">
-            <li className="mb-4 p-2 text-white rounded-xl shadow-lg">
-              Action-Oriented 2 Days
+            <li className="mb-4 p-2 text-yellow-200 rounded-xl shadow-lg">
+              Action-Oriented 3 Hours
             </li>
-            <li className="mb-4 p-2 text-white rounded-xl shadow-lg">
+            <li className="mb-4 p-2 text-yellow-200 rounded-xl shadow-lg">
               Networking Pro Secrets
             </li>
-            <li className="mb-4 p-2 mr-5 text-white rounded-xl shadow-lg">
+            <li className="mb-4 p-2 mr-5 text-yellow-200 rounded-xl shadow-lg">
               Tailored Tactical Goals
             </li>
           </ul>
@@ -60,7 +60,7 @@ const RevenuPicture = () => {
             <div className="flex justify-center md:mt-8 sm:mt-8 py-2 sm:px-2">
               <button className="bg-blue-600 text-white md:text-xl font-bold py-2 px-6 rounded-xl md:mb-4 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
                 <span className="flex-grow text-center">
-                  Action Now for ₹299
+                  Action Now for ₹199
                 </span>
                 <FontAwesomeIcon
                   icon={faGreaterThan}

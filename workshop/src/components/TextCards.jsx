@@ -24,7 +24,7 @@ const TextCards = () => {
             <h3 className="text-lg font-semibold text-yellow-200">
               Entrepreneurship
             </h3>
-            <p className="my-4">
+            <p className="my-4 p-5">
               As the CEO and Founder of BISJHINTUS Private Limited, Mr. Adhikari
               has demonstrated exceptional leadership skills in building and
               guiding the company towards growth and success. BISJHINTUS is

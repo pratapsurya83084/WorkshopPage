@@ -57,7 +57,7 @@ const OfferPrice = () => {
         <a href="https://rzp.io/l/badecisionmc" className='mb-10'>
         <div className="flex justify-center mt-8 ">
           <button className="bg-blue-600 text-white text-lg sm:text-2xl font-bold py-2 px-6 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center space-x-2">
-            <span>Action Now for ₹299</span>
+            <span>Action Now for ₹199</span>
             <FontAwesomeIcon icon={faGreaterThan} className="text-blue-500 bg-white p-2 px-3 rounded" />
           </button>
         </div>

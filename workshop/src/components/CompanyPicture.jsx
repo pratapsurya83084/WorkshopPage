@@ -38,7 +38,7 @@ const CompanyPicture = () => {
     2-day Entrepreneurship & Management Workshop,signifying your mastery of key business fundamentals
 </p>
 <a href="https://rzp.io/l/badecisionmc">
-<button className='mt-2 md:mt-10 bg-blue-600 p-2 rounded-xl sm:text-xl font-bold'>TO GET YOUR TRAINING CERTIFICATE</button>
+<button className='mt-2 md:mt-10 bg-blue-600 p-2 rounded-xl sm:text-xl font-bold'>GET YOUR  CERTIFICATE</button>
 </a>
 </div>
 
