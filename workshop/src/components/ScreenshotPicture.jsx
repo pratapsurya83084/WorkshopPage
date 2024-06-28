@@ -24,7 +24,7 @@ const ScreenshotPicture = () => {
           </svg>
         </div>
       </h1>
-       <h1 className="text-center">add testtimonials vidio</h1>
+       {/* <h1 className="text-center">add testtimonials vidio</h1> */}
       <section className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
         
         

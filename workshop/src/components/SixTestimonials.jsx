@@ -33,21 +33,24 @@ const SixTestimonials = () => {
           <div className=" p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl mt-2"
-              src="\public\Screenshot 2024-06-21 085545.png"
+              src="\ARUN DESHMUKHA.jpg"
               alt=""
             />
             <p className="text-center">
-              I am immensely grateful for the Bishop Adhikari course. The
-              teachings have helped me navigate life's challenges with more
-              grace and understanding. The instructors were knowledgeable and
-              compassionate, making the entire experience enriching and
-              impactful. This course has truly been a blessing.
+            Attending the 3-hour Sales and Negotiation 
+            Mastery Workshop with Bishop Adhikari was a
+             game-changer for my business. The advanced techniques
+              and strategies I learned have significantly improved 
+              my sales performance, leading to a 30% increase in
+               revenue within just a few months. I highly recommend 
+               this course to anyone 
+            looking to boost their sales skills
             </p>
 
             <p className="mb-4 mx-2 bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-200"> Rohan Mehta, India </b>
-                <h5> Marketing Director at Reliance Industries.</h5>
+                <b className="text-yellow-200">  Arun Deshmuk, India </b>
+                <h5> Mehta Group of Industries</h5>
               </span>
             </p>
           </div>
@@ -56,23 +59,19 @@ const SixTestimonials = () => {
           <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
-              src="/public\Olivia Watson England.jpeg"
+              src="\Keiko Tanaka.jpeg"
               alt=""
             />
             <p className="text-center">
-            The Bishop Adhikari course was truly
-             transformative. It provided me with profound 
-             insights and practical tools that I have
-              seamlessly integrated into my daily life.
-               The clarity and depth of the teachings were 
-               exceptional. I highly recommend this course 
-               to anyone seeking personal and spiritual growth.
+            The workshop with Bishop Adhikari was incredibly insightful.
+             The practical strategies and hands-on exercises helped me understand the nuances of effective negotiation. Since attending, I've been able to close deals more confidently and efficiently.
+             This course is a must for anyone serious about improving their negotiation skills"
             </p>
 
             <p className="bg-custom-gray mb-4 px-4 mx-2  radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-200">Olivia Watson, England</b>
-                <h5> Senior Manager at GreenTech Solutions</h5>
+                <b className="text-yellow-200">Keiko Tanaka, Japan</b>
+                <h5> Apparels Tanaka Trading Co</h5>
               </span>
             </p>
           </div>
@@ -81,21 +80,22 @@ const SixTestimonials = () => {
           <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
-              src="public\Aisha Al Mansouri UAE .png"
+              src="\Anita John.jpeg"
               alt=""
             />
             <p className="text-center">
-              Taking the Bishop Adhikari course was one of the best decisions I
-              have made. The content was enlightening, and the interactive
-              sessions allowed for deep personal reflection. The sense of
-              community and support was unparalleled. I feel more grounded and
-              connected to my purpose.
+            Bishop Adhikari's 3-hour workshop was one of
+             the best investments I've made in my professional development.
+              The advanced sales techniques I learned have already started
+               to pay off. My team and I are closing more deals and seeing
+                better results across the board. 
+            I can't recommend this workshop enough!
             </p>
 
             <p className="mb-4 bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-200">Aisha Al Mansouri, UAE </b>
-                <h5> Project Manager at Emirates Group</h5>
+                <b className="text-yellow-200">Anita John, UK</b>
+                <h5>  Smith & Co. Marketing</h5>
               </span>
             </p>
           </div>
@@ -104,21 +104,22 @@ const SixTestimonials = () => {
           <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
-              src="/public\Anna Ivanova Russia .jpeg"
+              src="\Priya Kumari.jpeg"
               alt=""
             />
             <p className="text-center">
-              I have had sleepless nights thinking, it will be great if I knew
-              how to solve all my business-related problems . This program feels
-              like a perfect destination to answer all my questions. Identifying
-              department-wise goals and action points blew my mind. Pumped up to
-              see results on June 30, 2023.
+            The Sales and Negotiation Mastery Workshop with Bishop
+             Adhikari was an eye-opener. The strategies and tips 
+             shared were practical and easy to implement. I've seen 
+             a noticeable improvement in my ability to handle tough
+              negotiations and close deals more effectively.
+             This course is a game-changer for anyone in sales
             </p>
 
             <p className="mb-4 bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-200">Anna Ivanova, Russia </b>
-                <h5>HR Specialist at Gazprom</h5>
+                <b className="text-yellow-200">Priya Kumari, India </b>
+                <h5>Goutam India Private Limited</h5>
               </span>
             </p>
           </div>
@@ -127,21 +128,23 @@ const SixTestimonials = () => {
           <div className="p-2 radius-yellow rounded-3xl flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
-              src="/public\Max Müller Germany.jpg"
+              src="\David Johnson.jpeg"
               alt=""
             />
             <p className="text-center">
-              I found the Bishop Adhikari course to be incredibly inspiring. The
-              course material was well-structured and delivered with great
-              expertise. It has opened my mind to new perspectives and has been
-              a catalyst for personal growth. I am deeply appreciative of this
-              journey.
+            I attended Bishop Adhikari's 3-hour workshop
+             and was blown away by the depth of knowledge 
+             and practical advice provided. The techniques
+              I learned have helped me increase my sales conversion
+               rates significantly. If you want to take your sales 
+               and negotiation skills to the next level, 
+            this workshop is for you
             </p>
 
             <p className="bg-custom-gray mb-3 radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-200"> Max Muller, Germany</b>
-                <h5> Software Engineer at SAP</h5>
+                <b className="text-yellow-200"> David Johnson, Australia</b>
+                <h5> Davjohn Design Co. Solutions</h5>
               </span>
             </p>
           </div>
@@ -150,29 +153,26 @@ const SixTestimonials = () => {
           <div className="p-2  radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
               className="h-56 rounded-3xl"
-              src="/public\Priya Patel India .jpeg"
+              src="\Akira Nakamura.jpeg"
               alt=""
             />
             <p className="text-center">
-              The Bishop Adhikari course offered profound wisdom and practical
-              guidance that has greatly impacted my life. The instructors
-              created a supportive and engaging learning environment. I have
-              gained invaluable tools for personal development and spiritual
-              enlightenment.
+            The Sales and Negotiation Mastery Workshop was 
+            a transformative experience. Bishop Adhikari's
+             insights and strategies have made a substantial 
+             impact on my sales approach. I've become more
+              confident in negotiations and have seen a marked 
+              improvement in my sales figures. This course is highly 
+              recommended for anyone in the business world
             </p>
 
             <p className="bg-custom-gray mx-2 px-1 mb-4 radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-200">Priya Patel, India</b>
-                <h5> Financial Analyst at Tata Consultancy Services</h5>
+                <b className="text-yellow-200"> Akira Nakamura, Japan</b>
+                <h5> Nakamura Holdings</h5>
               </span>
             </p>
           </div>
-
-         
-
-         
-
           
         </div>
                {/* action now button */}

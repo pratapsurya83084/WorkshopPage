@@ -23,8 +23,8 @@ const SeminarSection = () => {
         <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
       </div>
       <p className="p-3 md:p-3">
-      Individuals with Startup Ventures or Established Businesses  
-       or Sales professionals  and management students Perfect     
+      <b>Individuals with Startup Ventures or Established Businesses  
+      or Sales professionals  and management students </b> Perfect     
         for those seeking to improve their sales and 
       negotiation skills 
        for business growth
@@ -35,7 +35,7 @@ const SeminarSection = () => {
         <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
       </div>
       <p className="p-3 md:p-3">
-      Owners of Small Enterprises: Ideal for
+      <b>Owners of Small Enterprises:</b> Ideal for
        small business owners  
         aiming to make informed
         decisions that lead to 
@@ -48,7 +48,7 @@ const SeminarSection = () => {
         <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
       </div>
       <p className="p-3 md:p-3">
-      Executives, Managers, and Professionals in Corporate Settings:
+      <b>Executives, Managers, and Professionals in Corporate Settings:</b>
        Great for those looking to enhance their leadership and 
         decision-making 
       skills to drive their teams and businesses forward
@@ -80,7 +80,7 @@ const SeminarSection = () => {
       </div>
       </div>
       <p className="p-3 md:p-3">
-      Those Resistant to Adopting New Strategies: If you're not open to learning new methods, this workshop isn't for you.
+     <b>Those Resistant to Adopting New Strategies:</b>If you're not open to learning new methods, this workshop isn't for you
       </p>
     </div>
     <div className=" radius-yellow px-2 rounded-xl bg-gray flex items-center space-x-2 mt-2">
@@ -93,7 +93,7 @@ const SeminarSection = () => {
 </div>
       </div>
       <p className="p-3 md:p-3">
-      Non-Leaders: Individuals who don't see themselves as leaders may not benefit from this training
+     <b>Non-Leaders :</b>  Individuals who don't see themselves as leaders may not benefit from this training
       </p>
     </div>
 
@@ -109,7 +109,7 @@ const SeminarSection = () => {
       </div>
       </div>
       <p className="p-3 md:p-3">
-      Individuals Not Serious About Their Business and Future Grwoth: This workshop is designed for those committed to making significant improvements
+      <b>Individuals Not Serious About Their Business and Future Grwoth:</b> This workshop is designed for those committed to making significant improvements
       </p>
     </div>
     <div className="radius-yellow px-2 rounded-xl bg-gray flex items-center space-x-2 mt-2">
@@ -124,7 +124,7 @@ const SeminarSection = () => {
       </div>
       </div>
       <p className="p-3 md:p-3">
-      Those Unwilling to Engage in Active Learning and Implementation: Active participation and application of the skills learned are crucial for success
+      <b>Those Unwilling to Engage in Active Learning and Implementation:</b> Active participation and application of the skills learned are crucial for success
       </p>
     </div>
       </div>

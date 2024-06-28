@@ -7,7 +7,7 @@ const LearnFourHours = () => {
         <section className="fourHours-learnSection-section">
       <div className="flex flex-col justify-center items-center mx-10 mt-10">
         <h1 className="text-center text-2xl font-bold">
-          In just 4 hours, here's what you'll gain as a decision-maker
+        These 3 hours will revolutionize your approach with advanced sales and negotiation techniques and strategies
         </h1>
         <div className="flex justify-center mb-4">
           <svg
@@ -30,8 +30,8 @@ const LearnFourHours = () => {
             <div className="md:text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               01
             </div>
-            <div className="font-normal px-4 py-7 mt-4">
-              <b>Discover 9 Proven Techniques</b> to Become an Elite Decision Maker
+            <div className="font-bold px-4 py-7 mt-4">
+            1+ Certificate of Completion
             </div>
           </div>
 
@@ -40,8 +40,9 @@ const LearnFourHours = () => {
             <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               02
             </div>
-            <div className="font-normal px-4 py-7">
-            <b>Dive Into 5 Captivating Live Case Studies</b> to Shape Your Decision-Making Mastermind
+            <div className="font-bold px-4 py-7">
+            1+ Hour Free Consultation business analytic session with me
+
             </div>
           </div>
 
@@ -50,8 +51,8 @@ const LearnFourHours = () => {
             <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               03
             </div>
-            <div className="font-normal px-4 py-7">
-           <b> Be Among the First 10 Enrollees and</b> Get a 10-minute Personalized Decision-Making Assessment
+            <div className="font-bold px-4 py-7">
+            5+ Access to a Private Networking Group
             </div>
           </div>
 
@@ -60,8 +61,9 @@ const LearnFourHours = () => {
             <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               04
             </div>
-            <div className="font-normal px-4 py-7">
-           <b>Explore a Curated Library of 25 Resources </b> Packed With Decision-Making Insights
+            <div className="font-bold px-4 py-7">
+            10+ Customizable Sales and Negotiation Templates
+
             </div>
           </div>
 
@@ -70,8 +72,9 @@ const LearnFourHours = () => {
             <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               05
             </div>
-            <div className="font-normal px-4 py-7 mt-4">
-            <b>Experience Real Growth With 6 Dynamic</b> Business Simulation Exercises
+            <div className="font-bold px-4 py-7 mt-4">
+            15+ Downloadable Cheat Sheet for Effective Negotiations
+
             </div>
           </div>
 
@@ -80,8 +83,9 @@ const LearnFourHours = () => {
             <div className="text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               06
             </div>
-            <div className="font-normal px-4 py-7">
-            <b>15 best Serve Cutting-Edge Software and Tools</b> Tailored for Entrepreneurial Success
+            <div className="font-bold px-4 py-7">
+            20+ Exclusive E-Books on Advanced Sales Techniques
+
             </div>
           </div>
         </div>
