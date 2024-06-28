@@ -60,8 +60,9 @@ const LimitedSeats = () => {
             {/* <br class="hidden lg:inline-block"/>readymade gluten  */}
 
             {/* <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p> */}
-            <a href="#razorpay/link">
+           
               <div className="xl:ml-40 mt-5  flex justify-center md:mt- sm:mt-8 py- sm:px-2">
+              <a href="https://rzp.io/l/badecisionmc">
                 <button className="bg-blue-600 text-white md:text-xl font-bold py-2 px-6 rounded-xl md:mb-4 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
                   <span className="flex-grow text-center">
                     Action Now for ₹299
@@ -70,9 +71,9 @@ const LimitedSeats = () => {
                     icon={faGreaterThan}
                     className="bg-white text-blue-500 px-4 p-2 rounded-lg"
                   />
-                </button>
+                </button> </a>
               </div>
-            </a>
+           
           </div>
           <div class=" lg:max-w-lg   lg:w-full md:w-1/2 w-5/6">
             <img

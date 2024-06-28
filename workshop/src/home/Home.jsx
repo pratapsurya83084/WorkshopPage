@@ -20,6 +20,7 @@ import BookSection  from '../components/BookSection'
 import ScreenshotPicture  from '../components/ScreenshotPicture'
 import PictureSection  from '../components/PictureSection'
 import TextCards  from '../components/TextCards'
+import CompanyPicture  from '../components/CompanyPicture'
 const Home = () => {
   return (
     <div>
@@ -35,6 +36,7 @@ const Home = () => {
       <ScreenshotPicture/>
       <PictureSection/>
       <TextCards/>
+      <CompanyPicture/>
       <SeminarSection/>
       <LearnFourHours/>
       <SixTestimonials/>

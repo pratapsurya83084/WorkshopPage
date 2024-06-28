@@ -3,7 +3,7 @@ import React from "react";
 const TextCards = () => {
   return (
     <div>
-      <h1 className="text-2xl font-bold text-center mt-10">
+      <h1 className="text-2xl font-bold text-center mt-10 px-4">
         Mr. Bishop Adhikari is a dynamic and multifaceted individual,excelling
         in various fields.He is an entrepreneur,social activist and a prominent
         figure in the realm of leadership and management. With a passion for
@@ -11,7 +11,7 @@ const TextCards = () => {
         multiple successful ventures
       </h1>
       {/* radius-yellow */}
-      <div className="gap-10 mt-10 grid mb-8   rounded-lg shadow-sm md:mb-12 md:grid-cols-2 lg:grid-cols-3  bg-custom-brown">
+      <div className="gap-10 mt-10 py-8 px-5  grid mb-8   rounded-lg shadow-sm md:mb-12 md:grid-cols-2 lg:grid-cols-3  bg-custom-brown">
         {/* cards1 */}
         <figure className="m-5 flex flex-col items-center justify-center p-2 text-center radius-yellow rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e bg-custom-gray">
           <blockquote className="max-w-2xl mx-auto mb-4 lg:mb-8 flex flex-col items-center">

@@ -162,7 +162,7 @@ const AboutSection = () => {
               {/* & 08/10/2023 */}| 7 AM - 9 PM
             </h1>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a href="#razorpay">
+            <a href="https://rzp.io/l/badecisionmc">
                 <div className="flex mt- items-center pb-5  border-gray-100 mb-5">
                   <div className="flex justify-center md:mt- sm:mt-8 py-2 sm:px-2">
                     <button className="bg-blue-600 text-white md:text-xl font-bold py-2 px-6 rounded-xl md:mb-4 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
