@@ -51,8 +51,8 @@ const RevenuPicture = () => {
             <li className="mb-4 p-2 text-yellow-200 rounded-xl shadow-lg">
               Networking Pro Secrets
             </li>
-            <li className="mb-4 p-2 mr-5 text-yellow-200 rounded-xl shadow-lg">
-              Tailored Tactical Goals
+            <li className="mb-4 p-2 md:ml-20 text-yellow-200 rounded-xl shadow-lg">
+              Tailored Negotiation Tactical Goals
             </li>
           </ul>
           {/* action button */}

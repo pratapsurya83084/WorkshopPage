@@ -36,10 +36,13 @@ const CoachSection = () => {
           <div className="lg:ml-28 mt-1">
             <p className="mt-4   md:mt-2 text-center md:text-left font-bold text-xl ">
               Bishop Adhikari  <br />
-              <span className=" md:hidden">   Decision Business Coach</span>
+              <span className=" md:hidden">  
+                 {/* Decision */}
+                 Business ,Sales, Negotiation and Buisness Coach</span>
             </p>
             <p className=" hidden md:flex mt-2 md:mt-2 text-center md:text-left font-bold text-xl ">
-            Decision Business Coach
+            Business ,Sales, Negotiation <br />
+            and Buisness Coach
             </p>
           </div>
         </div>

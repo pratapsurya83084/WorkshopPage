@@ -96,7 +96,7 @@ const TransfromativeJourny = () => {
               />
               <h1 className="text-center text-white">
               {/* these */}
-              72+  Activities how others have applied  strategies
+              72+  Strategies how others have applied  strategies
 
               </h1>
             </div>

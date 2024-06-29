@@ -24,7 +24,7 @@ const TextCards = () => {
             <h3 className="text-lg font-semibold text-yellow-200">
               Entrepreneurship
             </h3>
-            <p className="my-4 p-5">
+            <p className="my-7 px-5">
               As the CEO and Founder of BISJHINTUS Private Limited, Mr. Adhikari
               has demonstrated exceptional leadership skills in building and
               guiding the company towards growth and success. BISJHINTUS is
@@ -40,7 +40,7 @@ const TextCards = () => {
           <blockquote className="max-w-2xl mx-auto mb-4 lg:mb-8 flex flex-col items-center">
             <img
               className="h-10 mb-2"
-              src="\multivitamin_16466696.png"
+              src="\doctor_12106342.png"
               alt=""
             />
             <h3 className="text-lg font-semibold text-yellow-200">
@@ -118,7 +118,8 @@ const TextCards = () => {
         {/* card6 */}
         <figure className=" m-5 flex flex-col items-center  justify-center p-8 text-center  radius-yellow rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e bg-custom-gray">
           <blockquote className="max-w-2xl mx-auto mb-4  lg:mb-8 flex flex-col items-center">
-            <img className="h-10 mb-2" src="\direction_12593402.png" alt="" />
+            <img className="h-10 mb-2 bg-yellow-200 rounded-full p-1"
+             src="\signpost_13452511.png" alt="" />
             <h3 className="text-lg font-semibold  text-yellow-200">
               Educational Journey
             </h3>
