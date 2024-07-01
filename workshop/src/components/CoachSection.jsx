@@ -38,10 +38,10 @@ const CoachSection = () => {
               Bishop Adhikari  <br />
               <span className=" md:hidden">  
                  {/* Decision */}
-                 Business ,Sales, Negotiation and Buisness Coach</span>
+                 Business , Sales , Negotiation and Buisness Coach</span>
             </p>
             <p className=" hidden md:flex mt-2 md:mt-2 text-center md:text-left font-bold text-xl ">
-            Business ,Sales, Negotiation <br />
+            Business , Sales , Negotiation <br />
             and Buisness Coach
             </p>
           </div>

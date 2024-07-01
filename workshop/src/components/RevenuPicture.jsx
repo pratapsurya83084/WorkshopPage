@@ -1,7 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
+import { CheckIcon } from "@heroicons/react/24/solid";
 const RevenuPicture = () => {
+  const points = [
+    "Action-Oriented 3 Hours",
+    "Networking Pro Secrets",
+    "Tailored Negotiation Tactical Goals"
+  ];
   return (
     <section className="mt-10 body-font text-center">
       <div className="text-2xl font-bold p-2 mb-">
@@ -12,23 +18,23 @@ const RevenuPicture = () => {
         {/* <p className="text-xl mt-5">
             Empowering success with our revenue milestones
           </p> */}
-        <div className="flex justify-center mb-4">
-          <svg
-            width="400"
-            height="30"
-            viewBox="0 0 100 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M5 15 Q 50 0, 95 15"
-              stroke="yellow"
-              strokeWidth="5"
-              fill="none"
-            />
-          </svg>
-        </div>
+         <div className="text-2xl">
+      <div className="flex justify-center">
+        <ol className="list-decimal list-inside text-left space-y-2">
+          {points.map((point, index) => (
+            <li key={index} className="flex items-center text-yellow-200 rounded-xl px-4 py-2">
+              <div className="h-5 w-6 flex justify-center items-center mb-0 bg-green-500 rounded-full mr-3">
+                <CheckIcon className="h-4 w-4 font-bold text-white" />
+              </div>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ol>
       </div>
+    </div>
+      </div>
+
+
       <div className="radius-yellow rounded-3xl bg-custom-brown container px-5 py-5 mx-auto">
         <div className="flex justify-center items-center  rounded-lg overflow-hidden">
           <img
@@ -44,17 +50,31 @@ const RevenuPicture = () => {
         <br />
 
         <div className="text-2xl">
-          <ul className="list-disc list-inside">
-            <li className="mb-4 p-2 text-yellow-200 rounded-xl shadow-lg">
-              Action-Oriented 3 Hours
+      <div className="flex justify-center">
+        <ol className="list-decimal list-inside text-left space-y-2">
+          {points.map((point, index) => (
+            <li key={index} className="flex items-center text-yellow-200 rounded-xl px-4 py-2">
+              <div className="h-5 w-6 flex justify-center items-center mb-0 bg-yellow-200 rounded-full mr-3">
+                <CheckIcon className="h-4 w-4 font-bold text-black" />
+              </div>
+              <span>{point}</span>
             </li>
-            <li className="mb-4 p-2 text-yellow-200 rounded-xl shadow-lg">
-              Networking Pro Secrets
-            </li>
-            <li className="mb-4 p-2 md:ml-20 text-yellow-200 rounded-xl shadow-lg">
-              Tailored Negotiation Tactical Goals
-            </li>
-          </ul>
+          ))}
+        </ol>
+      </div>
+    </div>
+          {/* <ul className="list-disc text-center list-inside">
+  <li className="text-yellow-200 rounded-xl ml-5">
+    Action-Oriented 3 Hours
+  </li>
+  <li className="text-yellow-200 rounded-xl ml-5">
+    Networking Pro Secrets
+  </li>
+  <li className="text-yellow-200 rounded-xl ml-5">
+    Tailored Negotiation Tactical Goals
+  </li>
+</ul> */}
+
           {/* action button */}
           <a href="https://rzp.io/l/badecisionmc">
             <div className="flex justify-center md:mt-8 sm:mt-8 py-2 sm:px-2">
@@ -70,7 +90,7 @@ const RevenuPicture = () => {
             </div>
           </a>
         </div>
-      </div>
+      {/* </div> */}
     </section>
   );
 };

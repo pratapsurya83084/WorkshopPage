@@ -70,34 +70,83 @@ const AboutSection = () => {
       </h2>
 
       {/* flex-row */}
-      <div className="md:mt-10 md:flex flex-row justify-center items-center gap-5 ">
-        {/* show small size md:hidden */}
-        <div className="p-5 flex justify-center  md:hidden">
-          <img
-            className=" h-60 radius-yellow rounded-3xl"
-            src="/BishopsirAbout_section_workshop_image.png"
-            alt=""
-          />
+      <div className="mx-3 sm:mx-1 md:mx-12   md:mt-10 lg:flex flex-row justify-center items-center gap-5 ">
+        {/* textleft-side */}
+        <div className="lg:hidden flex flex-col text">
+        <div className=" image-section">
+        <div className=" lg:w-auto xl:ml-10 sm:p-4  lg:mb-0">
+          {/* overflow-hidden */}
+          <div className="workshop-left-section lg:h-[460px] lg:w-[500px]  relative">
+            {/* md:right-96 */}
+            <h1 className="text-black animate-move-x-reverse sm:ml-5 text-4xl sm:text-5xl absolute right-40  left-4 p- sm:left-24 sm:right-96    xl:right-[290px] md:text-6xl md:ml-2 lg:right-60 lg:left-8 lg:text-6xl lg:ml-2 font-bold">
+              Bishop
+            </h1>
+            <img
+              // md:ml-[200px] h-[500px],object-cover
+              className="radius-yellow  h-[300px] sm:mx-auto  sm:h-[500px] md:h-[460px]  xl:h-[400px] lg:w-[500px]    p-  w-full  rounded-3xl"
+              src="/MY PICTURE AT FIRST.png" // Make sure your image path is correct
+              alt="WorkshopImage"
+            />
+            <h1 className="animate-move-x-reverse font-bold absolute mt-32 left-58  bottom-20 sm:bottom-40 md:bottom-40 lg:bottom-36  xl:bottom-52 md:mt-60 md:left-[450px] lg:left-[150px] lg:mt-[270px] right-0 text-4xl sm:text-4xl md:text-5xl lg:text-5xl lg:font-bold text-black mb-4 mr-4 lg:text-right">
+              Adhikari
+            </h1>
+          </div>
         </div>
-
-        <div className="px-5 flex flex-col justify-center items-center">
-          <h2 className="text-center md:text-left title-font tracking-widest text-xl font-bold">
+        </div>
+        <h1 className="text-center items-center  sm:text-xl font-semibold">
+        <h2 className="  title-font tracking-widest text-2xl font-bold">
             IGNITE YOUR SALES LEADERSHIP PATH
           </h2>
-          <h1 className="text-center md:text-left py-2 sm:text-xl font-semibold">
             3 Hours Weekend Workshop with Me? Are you <br />
             ready to improve your next negotiation skill set?
           </h1>
         </div>
 
-        <div className="p-5">
-          <img
-            className="hidden md:flex h-60  rounded-3xl"
-            src="/BishopsirAbout_section_workshop_image.png"
-            alt=""
-          />
+        {/* img right side */}
+        <div className="lg:flex hidden flex-row text">
+        
+        <h1 className="text-center mt-56 md:text-left py-2 sm:text-xl font-semibold">
+        <h2 className="text-center md:text-left title-font tracking-widest text-2xl font-bold">
+            IGNITE YOUR SALES LEADERSHIP PATH
+          </h2>
+            3 Hours Weekend Workshop with Me? Are you <br />
+            ready to improve your next negotiation skill set?
+          </h1>
+          <div className=" image-section">
+        <div className=" lg:w-auto xl:ml-10 sm:p-4  lg:mb-0">
+          {/* overflow-hidden */}
+          <div className="workshop-left-section lg:h-[460px] lg:w-[500px]  relative">
+            {/* md:right-96 */}
+            <h1 className="text-black animate-move-x-reverse sm:ml-5 text-4xl sm:text-5xl absolute right-40  left-4 p- sm:left-24 sm:right-96    xl:right-[290px] md:text-6xl md:ml-2 lg:right-60 lg:left-8 lg:text-6xl lg:ml-2 font-bold">
+              Bishop
+            </h1>
+            <img
+              // md:ml-[200px] h-[500px],object-cover
+              className="radius-yellow  h-[300px] sm:mx-auto  sm:h-[500px] md:h-[460px]  xl:h-[400px] lg:w-[500px]    p-  w-full  rounded-3xl"
+              src="/MY PICTURE AT FIRST.png" // Make sure your image path is correct
+              alt="WorkshopImage"
+            />
+            <h1 className="animate-move-x-reverse font-bold absolute mt-32 left-58  bottom-20 sm:bottom-40 md:bottom-40 lg:bottom-36  xl:bottom-52 md:mt-60 md:left-[450px] lg:left-[150px] lg:mt-[270px] right-0 text-4xl sm:text-4xl md:text-5xl lg:text-5xl lg:font-bold text-black mb-4 mr-4 lg:text-right">
+              Adhikari
+            </h1>
+          </div>
         </div>
-      </div>
+        </div>
+        </div>
+        
+        
+       
+      </div> 
+
+
+
+
+
+
+
+
+
+
 
       <section className=" pb-12 pt- sm:pb-16 sm:pt-12 lg:pb-24 xl:pb-32 xl:pt-10">
         <div className=" mx-auto max-w-7xl px-6 lg:px-8">
@@ -129,7 +178,7 @@ const AboutSection = () => {
                   <CheckIcon className="h-4 w-4 font-bold text-white" />
                 </div>
                 {/* 1st point */}
-                <h1 className="sm:p-2 sm:text-xl font-bold ">  
+                <h1 className="sm:p-2  sm:text-xl font-bold ">  
                   Why is enhancing your profit margins with impactful
                   negotiation strategies required? <br />
                 </h1>

@@ -36,3 +36,20 @@ body{
   width: 100%;
   z-index: 1000; /* Ensures the footer stays on top */
 }
+
+@keyframes move-x-reverse {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
+.animate-move-x {
+  animation: move-x 2s infinite alternate;
+}
+
+.animate-move-x-reverse {
+  animation: move-x-reverse 2s infinite alternate;
+}
