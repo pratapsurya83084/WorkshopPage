@@ -82,7 +82,7 @@ const LimitedSeats = () => {
         </div>
         <div className="hidden md:flex lg:max-w-lg  mb-20 ">
           <img
-            className="radius-yellow object-cover object-center  md:p-[13px] rounded-xl w-5/6 md:h-[290px]  md:w-[400px] lg:h-[400px] lg:w-[700px]"
+            className="radius-yellow object-cover object-center  md:p-[0px] lg:pl-[2px]   rounded-xl w-5/6 md:h-[290px]  md:w-[400px]  lg:h-[350px] lg:w-[700px]"
             alt="hero"
             src="/public/Limit_seats_img.png"
           />

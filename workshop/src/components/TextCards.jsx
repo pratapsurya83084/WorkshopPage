@@ -65,7 +65,7 @@ const TextCards = () => {
               src="\social-marketing_8862572.png"
               alt=""
             />
-            <h3 className="text-lg font-semibold  text-yellow-200">
+            <h3 className="text-lg font-semibold mb-3 text-yellow-200">
               Social Activism
             </h3>
             <p className="my-4">
@@ -106,7 +106,7 @@ const TextCards = () => {
             <h3 className="text-lg font-semibold  text-yellow-200">
               Independent Director and Philanthropy
             </h3>
-            <p className="my-4">
+            <p className="my-7">
               Mr. Adhikari serves as an Independent Director for the Core NGO, a
               network of seven NGOs dedicated to addressing critical social
               issues. His involvement in this capacity showcases his dedication
@@ -123,7 +123,7 @@ const TextCards = () => {
             <h3 className="text-lg font-semibold  text-yellow-200">
               Educational Journey
             </h3>
-            <p className="my-4">
+            <p className="my-14">
               Alongside his successful professional journey, Mr. Adhikari is a
               Ph.D. candidate, driven by a thirst for knowledge. He has proven
               himself to be a lifelong learner and a highly accomplished
