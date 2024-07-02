@@ -24,7 +24,7 @@ const TextCards = () => {
             <h3 className="text-lg font-semibold text-yellow-200">
               Entrepreneurship
             </h3>
-            <p className="my-7 px-5">
+            <p className="my-9 px-5">
               As the CEO and Founder of BISJHINTUS Private Limited, Mr. Adhikari
               has demonstrated exceptional leadership skills in building and
               guiding the company towards growth and success. BISJHINTUS is
@@ -47,7 +47,7 @@ const TextCards = () => {
             <h3 className="text-lg font-semibold text-yellow-200">
               Pharmaceutical Expertise
             </h3>
-            <p className="my-7">
+            <p className="my-6">
               In addition to his role at BISJHINTUS, Mr. Adhikari is a
               trailblazer in the Pharmaceutical sector. He is the Founder of
               Ricabi Life Science, where he held the position of CXO, and
@@ -69,7 +69,7 @@ const TextCards = () => {
             <h3 className="text-lg font-semibold mb-3 text-yellow-200">
               Social Activism
             </h3>
-            <p className="my-7">
+            <p className="my-2 p-3">
               Mr. Adhikari's commitment to social causes is commendable. As a
               public speaker and renowned trainer, he has been actively involved
               in empowering individuals and bridging linguistic diversity.
@@ -124,7 +124,7 @@ const TextCards = () => {
             <h3 className="text-lg font-semibold  text-yellow-200">
               Educational Journey
             </h3>
-            <p className="my-7">
+            <p className="my-8 p-">
               Alongside his successful professional journey, Mr. Adhikari is a
               Ph.D. candidate, driven by a thirst for knowledge. He has proven
               himself to be a lifelong learner and a highly accomplished

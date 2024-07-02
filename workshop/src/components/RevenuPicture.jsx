@@ -23,10 +23,10 @@ const RevenuPicture = () => {
         <ol className="list-decimal list-inside text-left space-y-2">
           {points.map((point, index) => (
             <li key={index} className="flex items-center text-yellow-200 rounded-xl px-4 py-2">
-              <div className="h-5 w-6 flex justify-center items-center mb-0 bg-green-500 rounded-full mr-3">
+              {/* <div className="h-5 w-5 flex justify-center items-center mb-0 bg-green-500 rounded-full mr-3">
                 <CheckIcon className="h-4 w-4 font-bold text-white" />
-              </div>
-              <span>{point}</span>
+              </div> */}
+              {/* <span>{point}</span> */}
             </li>
           ))}
         </ol>

@@ -39,9 +39,9 @@ const InspiringFeedback = () => {
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-yellow-300 mt-6 mb-4"></span>
                 <h2 className=" font-medium title-font tracking-wider text-sm">
-                 Ankit Kumar
+                 Ankit Kumar <br />Student
                 </h2>
-                <p className="">Student ,indian School of Management ,Patana</p>
+                <p className=""> Indian School of Management ,Patana</p>
               </div>
             </div>
             {/* card2 */}
@@ -79,9 +79,9 @@ const InspiringFeedback = () => {
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-yellow-300 mt-6 mb-4"></span>
                 <h2 className="font-medium title-font tracking-wider text-sm">
-                  Sana Kauser
+                  Sana Kauser <br />Student
                 </h2>
-                <p className="">Student ,indian institute of Legal Studies ,Siliguri</p>
+                <p className=""> Indian institute of Legal Studies ,Siliguri</p>
               </div>
             </div>
           </div>
