@@ -51,7 +51,7 @@ const OurGuarantee = () => {
 
   <div class="py-10 flex justify-center">
     <img class=" w-64 md:w-[700px] h-auto" 
-         src="https://rajivtalreja.sgacademy.info/wp-content/uploads/2023/04/360_F_52353227_QN4uFwGBnLfLtZzAxacByJujbzneuGMB-removebg-preview.png" 
+         src="\guarantee_gold_icon.webp" 
          alt="Clear Image"/>
   </div>
 </div>
