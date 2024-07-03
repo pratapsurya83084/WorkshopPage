@@ -58,9 +58,9 @@ const InspiringFeedback = () => {
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-yellow-300 mt-6 mb-4"></span>
                 <h2 className=" font-medium title-font tracking-wider text-sm">
-              Vaishnavi Upadhyay
+              Vaishnavi Upadhyay <br />Student
                 </h2>
-                <p className="">Student ,Alliance School of Law ,Bengluru </p>
+                <p className=""> Alliance School of Law ,Bengluru </p>
               </div>
             </div>
 

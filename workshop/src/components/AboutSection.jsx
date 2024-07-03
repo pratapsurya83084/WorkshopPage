@@ -133,20 +133,7 @@ const AboutSection = () => {
         </div>
         </div>
         </div>
-        
-        
-       
-      </div> 
-
-
-
-
-
-
-
-
-
-
+              </div> 
 
       <section className=" pb-12 pt- sm:pb-16 sm:pt-12 lg:pb-24 xl:pb-32 xl:pt-10">
         <div className=" mx-auto max-w-7xl px-6 lg:px-8">

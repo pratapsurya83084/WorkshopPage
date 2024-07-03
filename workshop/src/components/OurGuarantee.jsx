@@ -36,12 +36,12 @@ const OurGuarantee = () => {
 
 
 
-<div class="md:flex flex-row justify-center items-center gap-20">
-  <div class="px-3">
-    <h1 class="py-2 p-2 hidden md:flex font-bold text-2xl">
+<div className="md:flex flex-row justify-center items-center gap-20">
+  <div className="px-3">
+    <h1 className="py-2 p-2 hidden md:flex font-bold text-2xl">
       Our Guarantee
     </h1>
-    <p class="md:text-xl p-2  lg:text-2xl">
+    <p className="md:text-xl p-2  lg:text-2xl">
       Take advantage of this incredible offer now for only Rs 199, with a money-back 
       guarantee included. Enroll today, attend our seminar, and if you're not satisfied 
       for any reason, just send us an email, and we'll refund your entire payment—no 
@@ -49,8 +49,8 @@ const OurGuarantee = () => {
     </p>
   </div>
 
-  <div class="py-10 flex justify-center">
-    <img class=" w-64 md:w-[700px] h-auto" 
+  <div className="py-10 flex justify-center">
+    <img className=" w-64 md:w-[700px] h-auto" 
          src="\guarantee_gold_icon.webp" 
          alt="Clear Image"/>
   </div>

@@ -6,7 +6,7 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 const LimitedSeats = () => {
   return (
     <section className="body-font">
-      <div className="container mx-auto flex px-2  py-0 sm:py-10 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex px-   py-0 sm:py-10 md:flex-row flex-col items-center">
       
       
         <div className="md:hidden flex lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -16,7 +16,8 @@ const LimitedSeats = () => {
             src="/public/Limit_seats_img.png"
           />
         </div>
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        {/* lg:pr-24 */}
+        <div className="lg:flex-grow md:w-1/2   flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="mt-4 title-font text-xl ml-3 sm:text-2xl mb- font-medium">
             Ready to Skyrocket Your Business? <br />
           </h1>

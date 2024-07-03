@@ -3,7 +3,7 @@ import React from "react";
 const ActionBluePrint = () => {
   return (
     <div>
-      <section className="bg-custom-brown radius-yellow rounded-3xl  body-font">
+      <section className="bg-custom-brown radius-yellow rounded-3xl mb-10  body-font">
         <div className="container px-5 py-4 md:py-20 mx-auto">
           <div className="flex flex-col text-center w-full md:mb-10">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 ">

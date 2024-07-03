@@ -13,7 +13,7 @@ const RevenuPicture = () => {
       <div className="text-2xl font-bold p-2 mb-">
         <h4 className="">
           Discover Sales Real-Life Business Enthusiasts Who Transformed Straight
-          from Those Who Attended My Coaching
+        <br />  from Those Who Attended My Coaching
         </h4>
         {/* <p className="text-xl mt-5">
             Empowering success with our revenue milestones
