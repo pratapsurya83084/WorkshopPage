@@ -1,20 +1,52 @@
-import React from "react";
+import React,{useEffect,useRef} from "react";
 
 const ActionBluePrint = () => {
+
+  const sectionRef = useRef(null);
+  useEffect(() => {
+    const section = sectionRef.current;
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1,
+    };
+
+    const observerCallback = (entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-scroll');
+        } else {
+          entry.target.classList.remove('animate-scroll');
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    const elements = section.querySelectorAll('.smooth-scroll');
+    elements.forEach(el => observer.observe(el));
+
+    return () => {
+      elements.forEach(el => observer.unobserve(el));
+    };
+  }, []);
+
   return (
     <div>
-      <section className="bg-custom-brown radius-yellow rounded-3xl mb-10  body-font">
+      <section 
+     ref={sectionRef}
+     
+     className="bg-custom-brown radius-yellow rounded-3xl mb-10  body-font">
         <div className="container px-5 py-4 md:py-20 mx-auto">
           <div className="flex flex-col text-center w-full md:mb-10">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 ">
+            <h1 className="smooth-scroll sm:text-3xl text-2xl font-medium title-font mb-4 ">
               Powerfull Action Blueprint
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-xl ">
+            <p className="smooth-scroll lg:w-2/3 mx-auto leading-relaxed text-xl ">
             More Than 1,03,000 Students & Business Enthusiasts Rated My Coaching Style
 Discover What Awaits You
 
             </p>
-            <div className="flex justify-center mb-4">
+            <div className="smooth-scroll flex justify-center mb-4">
           <svg
             width="300"
             height="30"
@@ -37,11 +69,11 @@ Discover What Awaits You
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
+                  className="smooth-scroll radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
                   src="/public\powerfull_ACtion_img1.png"
                 />
               </div>
-              <h1 className="text-center mt-4 text-xl">
+              <h1 className="smooth-scroll text-center mt-4 text-xl">
                 Networking PowerHouse Strategies
               </h1>
             </div>
@@ -50,11 +82,11 @@ Discover What Awaits You
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
+                  className="smooth-scroll radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
                   src="public\powerfull_Action_img2.png"
                 />
               </div>
-              <h1 className="text-center mt-4 text-xl">
+              <h1 className="smooth-scroll text-center mt-4 text-xl">
                 Exclusive mastermind invitions
               </h1>
             </div>
@@ -64,11 +96,11 @@ Discover What Awaits You
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
+                  className="smooth-scroll radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
                   src="/public\powerfull_Action_img3.png"
                 />
               </div>
-              <h1 className="text-center mt-4 text-xl">Customized Goal Setting</h1>
+              <h1 className="smooth-scroll text-center mt-4 text-xl">Customized Goal Setting</h1>
             </div>
 
             {/* card4 */}
@@ -76,11 +108,11 @@ Discover What Awaits You
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
+                  className="smooth-scroll radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
                   src="public\Powerfull_Action_img4.png"
                 />
               </div>
-              <h1 className="text-center  mt-4 text-xl">Action-Oriented Sessions</h1>
+              <h1 className="smooth-scroll text-center  mt-4 text-xl">Action-Oriented Sessions</h1>
             </div>
           </div>
         </div>

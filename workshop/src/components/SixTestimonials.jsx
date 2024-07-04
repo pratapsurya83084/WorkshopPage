@@ -1,17 +1,47 @@
-import React from 'react'
+import React ,{useEffect,useRef} from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 
 const SixTestimonials = () => {
+
+  const sectionRef = useRef(null);
+  useEffect(() => {
+    const section = sectionRef.current;
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1,
+    };
+
+    const observerCallback = (entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-scroll');
+        } else {
+          entry.target.classList.remove('animate-scroll');
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    const elements = section.querySelectorAll('.smooth-scroll');
+    elements.forEach(el => observer.observe(el));
+
+    return () => {
+      elements.forEach(el => observer.unobserve(el));
+    };
+  }, []);
+
   return (
-    <div>
+    <section   ref={sectionRef}
+    >
        <div className="mt-10 nine-testimonial-section">
       <div className="bg-custom-brown radius-yellow rounded-3xl pb-4 ">
-        <h1 className="text-xl sm:text-2xl md:text-3xl text-center font-bold p-6">
+        <h1 className="smooth-scroll text-xl sm:text-2xl md:text-3xl text-center font-bold p-6">
           {" "}
           Testimonials from Previous Participants
         </h1>
-        <div className="flex justify-center mb-4">
+        <div className="smooth-scroll flex justify-center mb-4">
           <svg
             width="300"
             height="30"
@@ -32,11 +62,11 @@ const SixTestimonials = () => {
           {/* cards 1 max-w-sm */}
           <div className=" p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
-              className="h-56 rounded-3xl mt-2"
+              className="smooth-scroll h-56 rounded-3xl mt-2"
               src="\ARUN DESHMUKHA.jpg"
               alt=""
             />
-            <p className="text-center">
+            <p className="text-center smooth-scroll">
             Attending the 3-hour Sales and Negotiation 
             Mastery Workshop with Bishop Adhikari was a
              game-changer for my business. The advanced techniques
@@ -49,8 +79,8 @@ const SixTestimonials = () => {
 
             <p className="mb-4 mx-2 bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-200">  Arun Deshmuk, India </b>
-                <h5> Mehta Group of Industries</h5>
+                <b className="smooth-scroll text-yellow-200">  Arun Deshmuk, India </b>
+                <h5 className='smooth-scroll'> Mehta Group of Industries</h5>
               </span>
             </p>
           </div>
@@ -58,11 +88,11 @@ const SixTestimonials = () => {
           {/* cards 2  max-w-sm*/}
           <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
-              className="h-56 rounded-3xl"
+              className="smooth-scroll h-56 rounded-3xl"
               src="\Keiko Tanaka.jpeg"
               alt=""
             />
-            <p className="text-center">
+            <p className="text-center smooth-scroll">
             The workshop with Bishop Adhikari was incredibly insightful.
              The practical strategies and hands-on exercises helped me understand the nuances of effective negotiation. Since attending, I've been able to close deals more confidently and efficiently.
              This course is a must for anyone serious about improving their negotiation skills"
@@ -70,8 +100,8 @@ const SixTestimonials = () => {
 
             <p className="bg-custom-gray mb-4 px-4 mx-2  radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-200">Keiko Tanaka, Japan</b>
-                <h5> Apparels Tanaka Trading Co</h5>
+                <b className="smooth-scroll text-yellow-200">Keiko Tanaka, Japan</b>
+                <h5 className='smooth-scroll'> Apparels Tanaka Trading Co</h5>
               </span>
             </p>
           </div>
@@ -79,11 +109,11 @@ const SixTestimonials = () => {
           {/* cards 3 max-w-sm*/}
           <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
-              className="h-56 rounded-3xl"
+              className="smooth-scroll h-56 rounded-3xl"
               src="\Anita John.jpeg"
               alt=""
             />
-            <p className="text-center">
+            <p className="text-center smooth-scroll">
             Bishop Adhikari's 3-hour workshop was one of
              the best investments I've made in my professional development.
               The advanced sales techniques I learned have already started
@@ -94,8 +124,8 @@ const SixTestimonials = () => {
 
             <p className="mb-4 bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-200">Anita John, UK</b>
-                <h5>  Smith & Co. Marketing</h5>
+                <b className="smooth-scroll text-yellow-200">Anita John, UK</b>
+                <h5 className='smooth-scroll'>  Smith & Co. Marketing</h5>
               </span>
             </p>
           </div>
@@ -103,11 +133,11 @@ const SixTestimonials = () => {
           {/* cards 4  max-w-sm*/}
           <div className="p-2 radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
-              className="h-56 rounded-3xl"
+              className="smooth-scroll h-56 rounded-3xl"
               src="\Priya Kumari.jpeg"
               alt=""
             />
-            <p className="text-center">
+            <p className="text-center smooth-scroll">
             The Sales and Negotiation Mastery Workshop with Bishop
              Adhikari was an eye-opener. The strategies and tips 
              shared were practical and easy to implement. I've seen 
@@ -118,8 +148,8 @@ const SixTestimonials = () => {
 
             <p className="mb-4 bg-custom-gray radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-200">Priya Kumari, India </b>
-                <h5>Goutam India Private Limited</h5>
+                <b className="smooth-scroll text-yellow-200">Priya Kumari, India </b>
+                <h5 className='smooth-scroll'>Goutam India Private Limited</h5>
               </span>
             </p>
           </div>
@@ -127,11 +157,11 @@ const SixTestimonials = () => {
           {/* cards 5 max-w-sm*/}
           <div className="p-2 radius-yellow rounded-3xl flex flex-col justify-center items-center bg-gray">
             <img
-              className="h-56 rounded-3xl"
+              className="smooth-scroll h-56 rounded-3xl"
               src="\David Johnson.jpeg"
               alt=""
             />
-            <p className="text-center">
+            <p className="text-center smooth-scroll">
             I attended Bishop Adhikari's 3-hour workshop
              and was blown away by the depth of knowledge 
              and practical advice provided. The techniques
@@ -143,8 +173,8 @@ const SixTestimonials = () => {
 
             <p className="bg-custom-gray mb-3 radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-200"> David Johnson, Australia</b>
-                <h5> Davjohn Design Co. Solutions</h5>
+                <b className="smooth-scroll text-yellow-200"> David Johnson, Australia</b>
+                <h5 className='smooth-scroll'> Davjohn Design Co. Solutions</h5>
               </span>
             </p>
           </div>
@@ -152,11 +182,11 @@ const SixTestimonials = () => {
           {/* cards 6 max-w-sm*/}
           <div className="p-2  radius-yellow rounded-3xl  flex flex-col justify-center items-center bg-gray">
             <img
-              className="h-56 rounded-3xl"
+              className="smooth-scroll h-56 rounded-3xl"
               src="\Akira Nakamura.jpeg"
               alt=""
             />
-            <p className="text-center">
+            <p className="text-center smooth-scroll">
             The Sales and Negotiation Mastery Workshop was 
             a transformative experience. Bishop Adhikari's
              insights and strategies have made a substantial 
@@ -168,8 +198,8 @@ const SixTestimonials = () => {
 
             <p className="bg-custom-gray mx-2 px-1 mb-4 radius-yellow rounded-xl mt-5 p-2 text-center font-normal text-gray-700 dark:text-gray-400">
               <span className=" ">
-                <b className="text-yellow-200"> Akira Nakamura, Japan</b>
-                <h5> Nakamura Holdings</h5>
+                <b className="smooth-scroll text-yellow-200"> Akira Nakamura, Japan</b>
+                <h5 className='smooth-scroll'> Nakamura Holdings</h5>
               </span>
             </p>
           </div>
@@ -196,7 +226,7 @@ const SixTestimonials = () => {
           /> */}
       </div>
     </div>
-    </div>
+    </section>
   )
 }
 

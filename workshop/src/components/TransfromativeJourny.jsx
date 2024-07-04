@@ -1,16 +1,49 @@
-import React from "react";
+import React ,{useEffect,useRef}  from "react";
 
 const TransfromativeJourny = () => {
+
+  const sectionRef = useRef(null);
+  useEffect(() => {
+    const section = sectionRef.current;
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1,
+    };
+
+    const observerCallback = (entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-scroll');
+        } else {
+          entry.target.classList.remove('animate-scroll');
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    const elements = section.querySelectorAll('.smooth-scroll');
+    elements.forEach(el => observer.observe(el));
+
+    return () => {
+      elements.forEach(el => observer.unobserve(el));
+    };
+  }, []);
+
+
+
   return (
-    <section className="mt-14 body-font">
+    <section 
+    ref={sectionRef}
+    className="mt-14 body-font">
       <div className="container px-5  mx-auto">
         <div className="flex flex-col w-full mb-2">
           {/* Heading and Subheading are removed */}
-          <h1 className="text-xl sm:text-2xl md:text-3xl text-center font-bold">
+          <h1 className="smooth-scroll  text-xl sm:text-2xl md:text-3xl text-center font-bold">
             Get a glimpse of the transformative journey that awaits you at 
             this 3-hours weekend workshop{" "}
           </h1>
-          <div className="flex justify-center mb-4">
+          <div className="smooth-scroll flex justify-center mb-4">
             <svg
               width="400"
               height="30"
@@ -32,11 +65,11 @@ const TransfromativeJourny = () => {
           <div className="w-full xl:w-1/3 md:w-1/2 p-4">
             <div className="bg-custom-brown p-2 radius-yellow rounded-3xl">
               <img
-                className="h-auto max-h-64 rounded-3xl w-full object-contain mb-6"
+                className="smooth-scroll h-auto max-h-64 rounded-3xl w-full object-contain mb-6"
                 src="\street-map_302928.png"
                 alt="Networking opportunity"
               />
-              <h1 className="text-center text-white">
+              <h1 className="smooth-scroll text-center text-white">
               15+  Engage in real-life case studies
               {/* hands-on activities and */}
               </h1>
@@ -47,11 +80,11 @@ const TransfromativeJourny = () => {
           <div className="w-full xl:w-1/3 md:w-1/2 p-4">
             <div className="bg-custom-brown p-2 radius-yellow rounded-3xl">
               <img
-                className="h-auto max-h-64 rounded-3xl w-full object-contain mb-6"
+                className="smooth-scroll h-auto max-h-64 rounded-3xl w-full object-contain mb-6"
                 src="\artificial-intelligence_12220392.png"
                 alt="Networking opportunity"
               />
-              <h1 className="text-center text-white">
+              <h1 className="smooth-scroll text-center text-white">
               20+ Receive comprehensive materials
 
               </h1>
@@ -61,11 +94,11 @@ const TransfromativeJourny = () => {
           <div className="w-full xl:w-1/3 md:w-1/2 p-4">
             <div className="bg-custom-brown p-2 radius-yellow rounded-3xl">
               <img
-                className="h-auto max-h-64 rounded-3xl w-full object-contain mb-6"
+                className="smooth-scroll h-auto max-h-64 rounded-3xl w-full object-contain mb-6"
                 src="\internet_14194443.png"
                 alt="Networking opportunity"
               />
-              <h1 className="text-center text-white">
+              <h1 className="smooth-scroll text-center text-white">
               30+ Tools help to expand your professional network
  
               </h1>
@@ -76,11 +109,11 @@ const TransfromativeJourny = () => {
              <div className="w-full xl:w-1/3 md:w-1/2 p-4">
             <div className="bg-custom-brown p-2 radius-yellow rounded-3xl">
               <img
-                className="h-auto max-h-64 rounded-3xl w-full object-contain mb-6"
+                className="smooth-scroll h-auto max-h-64 rounded-3xl w-full object-contain mb-6"
                 src="\group-dynamics_13082737.png"
                 alt="Networking opportunity"
               />
-              <h1 className="text-center text-white">
+              <h1 className="smooth-scroll text-center text-white">
               35+ Support to ensure continuous improvement
 
               </h1>
@@ -90,11 +123,11 @@ const TransfromativeJourny = () => {
         <div className="w-full xl:w-1/3 md:w-1/2 p-4">
             <div className="bg-custom-brown p-2 radius-yellow rounded-3xl">
               <img
-                className="h-auto max-h-64 rounded-3xl w-full object-contain mb-6"
+                className="smooth-scroll h-auto max-h-64 rounded-3xl w-full object-contain mb-6"
                 src="\placeholder_235176.png"
                 alt="Networking opportunity"
               />
-              <h1 className="text-center text-white">
+              <h1 className="smooth-scroll text-center text-white">
               {/* these */}
               72+  Strategies how others have applied  strategies
 
@@ -106,11 +139,11 @@ const TransfromativeJourny = () => {
          <div className="w-full xl:w-1/3 md:w-1/2 p-4">
             <div className="bg-custom-brown p-2 radius-yellow rounded-3xl">
               <img
-                className="h-auto max-h-64 rounded-3xl w-full object-contain mb-6"
+                className="smooth-scroll h-auto max-h-64 rounded-3xl w-full object-contain mb-6"
                 src="\leadership_7288711.png"
                 alt="Networking opportunity"
               />
-              <h1 className="text-center text-white">
+              <h1 className="smooth-scroll text-center text-white">
               100+ Strategies to communicate persuasively 
               {/* and confidently */}
               </h1>

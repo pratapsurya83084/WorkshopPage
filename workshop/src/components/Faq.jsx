@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState ,useEffect,useRef} from "react";
 
 const Faq = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,13 +58,46 @@ const Faq = () => {
   const toggleAnswer11=()=>{
     setq11(!q11);
   }
+
+
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const section = sectionRef.current;
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1,
+    };
+
+    const observerCallback = (entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-scroll');
+        } else {
+          entry.target.classList.remove('animate-scroll');
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    const elements = section.querySelectorAll('.smooth-scroll');
+    elements.forEach(el => observer.observe(el));
+
+    return () => {
+      elements.forEach(el => observer.unobserve(el));
+    };
+  }, []);
+
   return (
-    <div className="faq-section">
+    <section 
+    ref={sectionRef}
+    className="faq-section">
       {/* <div> */}
-      <h1 className="text-center text-xl sm:text-2xl md:text-3xl font-bold mt-10">
+      <h1 className="smooth-scroll text-center text-xl sm:text-2xl md:text-3xl font-bold mt-10">
         Frequently Asked Questions
       </h1>
-      <div className="flex justify-center mb-4">
+      <div className="smooth-scroll flex justify-center mb-4">
         <svg
           width="300"
           height="20"
@@ -87,7 +120,7 @@ const Faq = () => {
         <div>
           <div
             onClick={toggleAnswer}
-            className="py-2 flex justify-between cursor-pointer"
+            className="smooth-scroll  py-2 flex justify-between cursor-pointer"
           >
             <div>
               <h1
@@ -122,7 +155,7 @@ const Faq = () => {
         <div>
           <div
             onClick={toggleAnswer2}
-            className="py-2 flex justify-between cursor-pointer"
+            className="smooth-scroll py-2 flex justify-between cursor-pointer"
           >
             <div>
               <h1 className={`mt-3 ${q2 ? "text-yellow-200" : "text-white"}`}>
@@ -155,7 +188,7 @@ const Faq = () => {
         <div>
           <div
             onClick={toggleAnswer3}
-            className="py-2 flex justify-between cursor-pointer"
+            className="smooth-scroll py-2 flex justify-between cursor-pointer"
           >
             <div>
               <h1 className={`mt-3 ${q3 ? "text-yellow-200" : "text-white"}`}>
@@ -187,7 +220,7 @@ const Faq = () => {
         <div>
           <div
             onClick={toggleAnswer4}
-            className="py-2 flex justify-between cursor-pointer"
+            className="smooth-scroll py-2 flex justify-between cursor-pointer"
           >
             <div>
               <h1 className={`mt-3 ${q4 ? "text-yellow-200" : "text-white"}`}>
@@ -219,7 +252,7 @@ const Faq = () => {
         <div>
           <div
             onClick={toggleAnswer5}
-            className="py-2 flex justify-between cursor-pointer"
+            className="smooth-scroll py-2 flex justify-between cursor-pointer"
           >
             <div>
               <h1 className={`mt-3 ${q5 ? "text-yellow-200" : "text-white"}`}>
@@ -251,7 +284,7 @@ const Faq = () => {
         <div>
           <div
             onClick={toggleAnswer6}
-            className="py-2 flex justify-between cursor-pointer"
+            className="smooth-scroll py-2 flex justify-between cursor-pointer"
           >
             <div>
               <h1 className={`mt-3 ${q6 ? "text-yellow-200" : "text-white"}`}>
@@ -283,7 +316,7 @@ const Faq = () => {
         <div>
           <div
             onClick={toggleAnswer7}
-            className="py-2 flex justify-between cursor-pointer"
+            className="smooth-scroll py-2 flex justify-between cursor-pointer"
           >
             <div>
               <h1 className={`mt-3 ${q7 ? "text-yellow-200" : "text-white"}`}>
@@ -316,7 +349,7 @@ const Faq = () => {
         <div>
           <div
             onClick={toggleAnswer8}
-            className="py-2 flex justify-between cursor-pointer"
+            className="smooth-scroll py-2 flex justify-between cursor-pointer"
           >
             <div>
               <h1 className={`mt-3 ${q8 ? "text-yellow-200" : "text-white"}`}>
@@ -349,7 +382,7 @@ const Faq = () => {
         <div>
           <div
             onClick={toggleAnswer9}
-            className="py-2 flex justify-between cursor-pointer"
+            className="smooth-scroll py-2 flex justify-between cursor-pointer"
           >
             <div>
               <h1 className={`mt-3 ${q9 ? "text-yellow-200" : "text-white"}`}>
@@ -382,7 +415,7 @@ const Faq = () => {
         <div>
           <div
             onClick={toggleAnswer10}
-            className="py-2 flex justify-between cursor-pointer"
+            className="smooth-scroll py-2 flex justify-between cursor-pointer"
           >
             <div>
               <h1 className={`mt-3 ${q10 ? "text-yellow-200" : "text-white"}`}>
@@ -414,7 +447,7 @@ const Faq = () => {
         <div>
           <div
             onClick={toggleAnswer11}
-            className="py-2 flex justify-between cursor-pointer"
+            className="smooth-scroll py-2 flex justify-between cursor-pointer"
           >
             <div>
               <h1 className={`mt-3 ${q11 ? "text-yellow-200" : "text-white"}`}>
@@ -443,7 +476,7 @@ const Faq = () => {
         </div>
         <hr className="text-gray" />
       </div>
-    </div>
+    </section>
   );
 };
 

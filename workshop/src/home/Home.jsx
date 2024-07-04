@@ -1,5 +1,7 @@
 import React from 'react'
+import HeadingText  from '../components/HeadingText'
 import AboutSection  from '../components/AboutSection'
+import WorkshopAttens  from '../components/WorkshopAttens'
 import ActionBluePrint   from '../components/ActionBluePrint'
 import LimitedSeats  from '../components/LimitedSeats'
 import InspiringFeedback   from '../components/InspiringFeedback'
@@ -8,7 +10,7 @@ import TransfromativeJourny   from '../components/TransfromativeJourny'
 import Faq  from '../components/Faq'
 import SeminarSection   from '../components/SeminarSection'
 import FooterSection  from '../components/FooterSection'
-import LearnFourHours  from '../components/LearnFourHours'
+import LearnThreeHours  from '../components/LearnThreeHours'
 import  SixTestimonials  from '../components/SixTestimonials'
 import CoachSection  from '../components/CoachSection'
 import CompanyLogo   from '../components/CompanyLogo'
@@ -21,10 +23,13 @@ import ScreenshotPicture  from '../components/ScreenshotPicture'
 import PictureSection  from '../components/PictureSection'
 import TextCards  from '../components/TextCards'
 import CompanyPicture  from '../components/CompanyPicture'
+
 const Home = () => {
   return (
     <div>
+      <HeadingText/>
       <AboutSection/>
+      <WorkshopAttens/>
       <ActionBluePrint/>
       <LimitedSeats/>
       <InspiringFeedback/>
@@ -38,7 +43,7 @@ const Home = () => {
       <TextCards/>
       <CompanyPicture/>
       <SeminarSection/>
-      <LearnFourHours/>
+      <LearnThreeHours/>
       <SixTestimonials/>
       <CoachSection/>
       <OurGuarantee/>

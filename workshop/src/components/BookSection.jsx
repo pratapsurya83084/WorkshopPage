@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useEffect,useRef} from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -16,11 +16,41 @@ const BookSection = () => {
     nextArrow: null, // No next arrow
   };
 
+  const sectionRef = useRef(null);
+  useEffect(() => {
+    const section = sectionRef.current;
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1,
+    };
+
+    const observerCallback = (entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-scroll');
+        } else {
+          entry.target.classList.remove('animate-scroll');
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    const elements = section.querySelectorAll('.smooth-scroll');
+    elements.forEach(el => observer.observe(el));
+
+    return () => {
+      elements.forEach(el => observer.unobserve(el));
+    };
+  }, []);
+
   return (
-    <div className="">
-      <h1 className="carousel-section text-center mt-10 p-4 text-xl sm:text-2xl md:text-3xl font-bold">
+    <section 
+    ref={sectionRef}
+    className="">
+      <h1 className="smooth-scroll carousel-section text-center mt-10 p-4 text-xl sm:text-2xl md:text-3xl font-bold">
             Claim these incredible additions free beeis to your workshop future experience!
-            <div className="flex justify-center mb-4">
+            <div className="smooth-scroll flex justify-center mb-4">
           <svg
             width="300"
             height="30"
@@ -48,13 +78,13 @@ const BookSection = () => {
                   {" "}
                   {/* img1 */}
                   <img
-                    className="h-50 w-60    object-cover"
+                    className="smooth-scroll h-50 w-60    object-cover"
                     src="\EarnBookShotChecklist4949_img1.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.498
                   </button>
                 </div>
@@ -64,13 +94,13 @@ const BookSection = () => {
                 <div className="flex justify-center">
                   {/* img2 */}
                   <img
-                    className="h-50 w-60   object-cover"
+                    className="smooth-scroll h-50 w-60   object-cover"
                     src="\NetworkingOpportunitiestoolkit5699_img2.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.652
                   </button>
                 </div>
@@ -88,13 +118,13 @@ const BookSection = () => {
                   {" "}
                   {/* img1 */}
                   <img
-                    className="h-50 w-60    object-cover"
+                    className="smooth-scroll h-50 w-60    object-cover"
                     src="\MillionDollersalespitch5859_img3.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.859
                   </button>
                 </div>
@@ -104,13 +134,13 @@ const BookSection = () => {
                 <div className="flex justify-center">
                   {/* img2 */}
                   <img
-                    className="h-50 w-60   object-cover"
+                    className="smooth-scroll h-50 w-60   object-cover"
                     src="\UserFriendlyWebsiteandInterfacecreatetoolkit6199_img4.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.999
                   </button>
                 </div>
@@ -128,13 +158,13 @@ const BookSection = () => {
                   {" "}
                   {/* img1 */}
                   <img
-                    className="h-50 w-60    object-cover"
+                    className="smooth-scroll h-50 w-60    object-cover"
                     src="\TEAMMANAGEMENTTOOLKIT6299_img5.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.652
                   </button>
                 </div>
@@ -144,13 +174,13 @@ const BookSection = () => {
                 <div className="flex justify-center">
                   {/* img2 */}
                   <img
-                    className="h-50 w-60   object-cover"
+                    className="smooth-scroll h-50 w-60   object-cover"
                     src="\LeadershipToolkit6449_img6.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.498
                   </button>
                 </div>
@@ -169,13 +199,13 @@ const BookSection = () => {
                   {" "}
                   {/* img1 */}
                   <img
-                    className="h-50 w-60    object-cover"
+                    className="smooth-scroll h-50 w-60    object-cover"
                     src="\Digital_ResourceLibrary_SurpriseGiftsorBonusesmanymore6449_img7.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.859
                   </button>
                 </div>
@@ -185,13 +215,13 @@ const BookSection = () => {
                 <div className="flex justify-center">
                   {/* img2 */}
                   <img
-                    className="h-50 w-60   object-cover"
+                    className="smooth-scroll h-50 w-60   object-cover"
                     src="\Actionable_Checklists_or_Roadmaps_tootlkit_for_leadership7899_8.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.999
                   </button>
                 </div>
@@ -208,13 +238,13 @@ const BookSection = () => {
                   {" "}
                   {/* img1 */}
                   <img
-                    className="h-50 w-60    object-cover"
+                    className="smooth-scroll h-50 w-60    object-cover"
                     src="\FullAItoolkittouseandearnmore7999_img9.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.498
                   </button>
                 </div>
@@ -224,13 +254,13 @@ const BookSection = () => {
                 <div className="flex justify-center">
                   {/* img2 */}
                   <img
-                    className="h-50 w-60   object-cover"
+                    className="smooth-scroll h-50 w-60   object-cover"
                     src="\LimitedEditionWorkshopMerchandisebook8999_img10.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.859
                   </button>
                 </div>
@@ -247,13 +277,13 @@ const BookSection = () => {
                   {" "}
                   {/* img1 */}
                   <img
-                    className="h-50 w-60    object-cover"
+                    className="smooth-scroll h-50 w-60    object-cover"
                     src="\Digital_Journal_for_your_next_earning9399_img11.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.999
                   </button>
                 </div>
@@ -263,13 +293,13 @@ const BookSection = () => {
                 <div className="flex justify-center">
                   {/* img2 */}
                   <img
-                    className="h-50 w-60   object-cover"
+                    className="smooth-scroll h-50 w-60   object-cover"
                     src="\FinacialToolkitformanageyourFinacialKnowledge9999_12.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.859
                   </button>
                 </div>
@@ -288,13 +318,13 @@ const BookSection = () => {
                   {" "}
                   {/* img1 */}
                   <img
-                    className="h-50 w-60    object-cover"
+                    className="smooth-scroll h-50 w-60    object-cover"
                     src="\PrivatePodcastSessionwithexcusive1hour2699_img13.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.498
                   </button>
                 </div>
@@ -304,13 +334,13 @@ const BookSection = () => {
                 <div className="flex justify-center">
                   {/* img2 */}
                   <img
-                    className="h-50 w-60   object-cover"
+                    className="smooth-scroll h-50 w-60   object-cover"
                     src="\Certificate_of_Completation2999_img14.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.652
                   </button>
                 </div>
@@ -328,13 +358,13 @@ const BookSection = () => {
                   {" "}
                   {/* img1 */}
                   <img
-                    className="h-50 w-60    object-cover"
+                    className="smooth-scroll h-50 w-60    object-cover"
                     src="\Community_membership3299_img15.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.859
                   </button>
                 </div>
@@ -344,13 +374,13 @@ const BookSection = () => {
                 <div className="flex justify-center">
                   {/* img2 */}
                   <img
-                    className="h-50 w-60   object-cover"
+                    className="smooth-scroll h-50 w-60   object-cover"
                     src="\21_Case_Study_observation_analysis_book3499_img16.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.999
                   </button>
                 </div>
@@ -368,13 +398,13 @@ const BookSection = () => {
                   {" "}
                   {/* img1 */}
                   <img
-                    className="h-50 w-60    object-cover"
+                    className="smooth-scroll h-50 w-60    object-cover"
                     src="\Customer_Feedback_and_Surveys_toolkit_img17.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.498
                   </button>
                 </div>
@@ -384,13 +414,13 @@ const BookSection = () => {
                 <div className="flex justify-center">
                   {/* img2 */}
                   <img
-                    className="h-50 w-60   object-cover"
+                    className="smooth-scroll h-50 w-60   object-cover"
                     src="\PersonalisedLeadershipAssessmenttoolkit_img18.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.652
                   </button>
                 </div>
@@ -408,13 +438,13 @@ const BookSection = () => {
                   {" "}
                   {/* img1 */}
                   <img
-                    className="h-50 w-60    object-cover"
+                    className="smooth-scroll  h-50 w-60    object-cover"
                     src="\EngagingContenttoolkit_img19.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2 ">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.999
                   </button>
                 </div>
@@ -424,13 +454,13 @@ const BookSection = () => {
                 <div className="flex justify-center">
                   {/* img2 */}
                   <img
-                    className="h-50 w-60   object-cover"
+                    className="smooth-scroll h-50 w-60   object-cover"
                     src="\E-bookonLeaderhsipstrategies_img20.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div className="flex justify-center mt-2 mb-2">
-                  <button className="bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
+                  <button className="smooth-scroll bg-blue-600 p-4 text-xl font-bold text-white py-2 px-4 rounded-md">
                     Rs.498
                   </button>
                 </div>
@@ -445,7 +475,7 @@ const BookSection = () => {
 
       {/* offerprice counter section */}
       <OfferPrice/>
-    </div>
+    </section>
   );
 };
 
