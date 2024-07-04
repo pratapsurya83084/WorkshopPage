@@ -6,7 +6,7 @@ const TransfromativeJourny = () => {
       <div className="container px-5  mx-auto">
         <div className="flex flex-col w-full mb-2">
           {/* Heading and Subheading are removed */}
-          <h1 className="md:text-3xl text-center font-bold">
+          <h1 className="text-xl sm:text-2xl md:text-3xl text-center font-bold">
             Get a glimpse of the transformative journey that awaits you at 
             this 3-hours weekend workshop{" "}
           </h1>

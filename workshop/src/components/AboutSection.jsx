@@ -55,13 +55,13 @@ const AboutSection = () => {
 
   return (
     <div>
-      <h1 className="bg-custom-brown   text-center p-6 text-xl sm:text-3xl font-bold ">
+      <h1 className="bg-custom-brown   text-center p-6 text-xl sm:text-2xl md:text-3xl font-bold ">
         Transform Your Sales & Negotiation Skills in{" "}
         <b className="text-yellow-200 font-bold">3 Hours</b> Essential for
         Companies, Professionals, and Students!
       </h1>
 
-      <h2 className="text-center text-xl sm:text-2xl p-6 font-bold">
+      <h2 className="text-center  sm:text-xl md:text-2xl p-6 font-bold">
         {" "}
         A workshop to gain 200+ deep insights and actionable strategies to
         elevate your sales and negotiation skills and drive your business to{" "}
@@ -94,7 +94,7 @@ const AboutSection = () => {
         </div>
         </div>
         <h1 className="text-center items-center  sm:text-xl font-semibold">
-        <h2 className="  title-font tracking-widest text-2xl font-bold">
+        <h2 className="text-xl sm:text-2xl md:text-3xl  title-font tracking-widest  font-bold">
             IGNITE YOUR SALES LEADERSHIP PATH
           </h2>
             3 Hours Weekend Workshop with Me? Are you <br />
@@ -105,7 +105,7 @@ const AboutSection = () => {
         {/* img right side */}
         <div className="lg:flex hidden flex-row text">
         
-        <h1 className="text-center mt-56 md:text-left py-2 sm:text-xl font-semibold">
+        <h1 className="text-center mt-56 md:text-left py-2 text-xl sm:text-2xl md:text-2xl font-semibold">
         <h2 className="text-center md:text-left title-font tracking-widest text-2xl font-bold">
             IGNITE YOUR SALES LEADERSHIP PATH
           </h2>
@@ -215,9 +215,10 @@ const AboutSection = () => {
               {/* & 08/10/2023 */}| 7 AM - 9 PM
             </h1>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a href="https://rzp.io/l/badecisionmc">
+
                 <div className="flex mt- items-center pb-5  border-gray-100 mb-5">
                   <div className="flex justify-center md:mt- sm:mt-8 py-2 sm:px-2">
+                  <a href="https://pages.razorpay.com/workshopwithbishop">
                     <button className="bg-blue-600 text-white md:text-xl font-bold py-2 px-6 rounded-xl md:mb-4 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
                       <span className="flex-grow text-center">
                         Action Now for ₹199
@@ -227,9 +228,10 @@ const AboutSection = () => {
                         className="bg-white text-blue-500 px-4 p-2 rounded-lg"
                       />
                     </button>
+              </a>
                   </div>
                 </div>
-              </a>
+              
             </div>
           </div>
         </div>

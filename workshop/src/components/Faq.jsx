@@ -61,7 +61,7 @@ const Faq = () => {
   return (
     <div className="faq-section">
       {/* <div> */}
-      <h1 className="text-center text-2xl font-bold mt-10">
+      <h1 className="text-center text-xl sm:text-2xl md:text-3xl font-bold mt-10">
         Frequently Asked Questions
       </h1>
       <div className="flex justify-center mb-4">

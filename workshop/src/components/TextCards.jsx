@@ -3,7 +3,7 @@ import React from "react";
 const TextCards = () => {
   return (
     <div>
-      <h1 className="text-2xl font-bold text-center mt-10 px-4">
+      <h1 className="text-xl sm:text-2xl xl:text-3xl font-bold text-center mt-10 px-4">
         Mr. Bishop Adhikari is a dynamic and multifaceted individual,excelling
         in various fields.He is an entrepreneur,social activist and a prominent
         figure in the realm of leadership and management. With a passion for

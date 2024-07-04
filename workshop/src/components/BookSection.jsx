@@ -18,7 +18,7 @@ const BookSection = () => {
 
   return (
     <div className="">
-      <h1 className="carousel-section text-center mt-10 p-4 text-2xl font-bold">
+      <h1 className="carousel-section text-center mt-10 p-4 text-xl sm:text-2xl md:text-3xl font-bold">
             Claim these incredible additions free beeis to your workshop future experience!
             <div className="flex justify-center mb-4">
           <svg

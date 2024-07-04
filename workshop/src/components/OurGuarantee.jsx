@@ -1,14 +1,16 @@
-import React from 'react'
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 
 const OurGuarantee = () => {
   return (
     <div>
-         <section className="guarantee-section">
-      {/* <div> */}
+      <section className="guarantee-section">
+        {/* <div> */}
         <div className="text-center mt-10 p-4 text-2xl font-bold">
-          <h1>Still Unsure? We've Got You Covered!</h1>
+          <h1 className="text-xl sm:text-2xl md:text-3xl">
+            Still Unsure? We've Got You Covered!
+          </h1>
           <div className="flex justify-center mb-4">
             <svg
               width="300"
@@ -32,46 +34,47 @@ const OurGuarantee = () => {
             Our Guarantee
           </h2>
 
-        
+          <div className="md:flex flex-row justify-center items-center gap-20">
+            <div className="px-3">
+              <h1 className="py-2 p-2 hidden md:flex font-bold text-2xl">
+                Our Guarantee
+              </h1>
+              <p className="md:text-xl p-2  lg:text-2xl">
+                Take advantage of this incredible offer now for only Rs 199,
+                with a money-back guarantee included. Enroll today, attend our
+                seminar, and if you're not satisfied for any reason, just send
+                us an email, and we'll refund your entire payment—no questions
+                asked!
+              </p>
+            </div>
 
-
-
-<div className="md:flex flex-row justify-center items-center gap-20">
-  <div className="px-3">
-    <h1 className="py-2 p-2 hidden md:flex font-bold text-2xl">
-      Our Guarantee
-    </h1>
-    <p className="md:text-xl p-2  lg:text-2xl">
-      Take advantage of this incredible offer now for only Rs 199, with a money-back 
-      guarantee included. Enroll today, attend our seminar, and if you're not satisfied 
-      for any reason, just send us an email, and we'll refund your entire payment—no 
-      questions asked!
-    </p>
-  </div>
-
-  <div className="py-10 flex justify-center">
-    <img className=" w-64 md:w-[700px] h-auto" 
-         src="\guarantee_gold_icon.webp" 
-         alt="Clear Image"/>
-  </div>
-</div>
+            <div className="py-10 flex justify-center">
+              <img
+                className=" w-64 md:w-[700px] h-auto"
+                src="\guarantee_gold_icon.webp"
+                alt="Clear Image"
+              />
+            </div>
+          </div>
         </div>
         {/* action now button */}
-        
-        <div className="flex justify-center mt-8 sm:mt-8 py-2 sm:px-2">
-        <a href="https://rzp.io/l/badecisionmc"> <button className="bg-blue-600 text-white sm:text-xl md:text-2xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
-            <span className="flex-grow text-center">Action Now for ₹199</span>
-            <FontAwesomeIcon
-              icon={faGreaterThan}
-              className="bg-white text-blue-500 px-4 p-2 rounded-lg"
-            />
-          </button>    </a>
-        </div>
-    
-      {/* </div> */}
-    </section>
-    </div>
-  )
-}
 
-export default OurGuarantee
+        <div className="flex justify-center mt-8 sm:mt-8 py-2 sm:px-2">
+          <a href="https://pages.razorpay.com/workshopwithbishop">
+            <button className="bg-blue-600 text-white sm:text-xl md:text-2xl font-bold py-2 px-6 rounded-xl hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
+              <span className="flex-grow text-center">Action Now for ₹199</span>
+              <FontAwesomeIcon
+                icon={faGreaterThan}
+                className="bg-white text-blue-500 px-4 p-2 rounded-lg"
+              />
+            </button>{" "}
+          </a>
+        </div>
+
+        {/* </div> */}
+      </section>
+    </div>
+  );
+};
+
+export default OurGuarantee;
