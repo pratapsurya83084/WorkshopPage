@@ -59,37 +59,6 @@ const WorkshopAttens = () => {
 
 
 
-  // const sectionRef = useRef(null);
-
-  // useEffect(() => {
-  //   const section = sectionRef.current;
-  //   const observerOptions = {
-  //     root: null,
-  //     rootMargin: '0px',
-  //     threshold: 0.1,
-  //   };
-
-  //   const observerCallback = (entries, observer) => {
-  //     entries.forEach(entry => {
-  //       if (entry.isIntersecting) {
-  //         entry.target.classList.add('animate-scroll');
-  //       } else {
-  //         entry.target.classList.remove('animate-scroll');
-  //       }
-  //     });
-  //   };
-
-  //   const observer = new IntersectionObserver(observerCallback, observerOptions);
-  //   const elements = section.querySelectorAll('.smooth-scroll');
-  //   elements.forEach(el => observer.observe(el));
-
-  //   return () => {
-  //     elements.forEach(el => observer.unobserve(el));
-  //   };
-  // }, []);
-
-
-
   return (
     <section 
     // ref={sectionRef}
@@ -168,7 +137,7 @@ const WorkshopAttens = () => {
           {formattedDate}
           {/* {nextSaturday.toLocaleDateString('en-US', { weekday: 'long' })} */}
         </span>{" "}
-        {/* & 08/10/2023 */}| 7 AM - 9 PM
+        {/* & 08/10/2023 */}| 7 PM - 9 PM
       </h1>
 
       <div className="mt-10 flex items-center justify-center gap-x-6">
