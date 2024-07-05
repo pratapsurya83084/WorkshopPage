@@ -59,13 +59,44 @@ const WorkshopAttens = () => {
 
 
 
+  // const sectionRef = useRef(null);
+
+  // useEffect(() => {
+  //   const section = sectionRef.current;
+  //   const observerOptions = {
+  //     root: null,
+  //     rootMargin: '0px',
+  //     threshold: 0.1,
+  //   };
+
+  //   const observerCallback = (entries, observer) => {
+  //     entries.forEach(entry => {
+  //       if (entry.isIntersecting) {
+  //         entry.target.classList.add('animate-scroll');
+  //       } else {
+  //         entry.target.classList.remove('animate-scroll');
+  //       }
+  //     });
+  //   };
+
+  //   const observer = new IntersectionObserver(observerCallback, observerOptions);
+  //   const elements = section.querySelectorAll('.smooth-scroll');
+  //   elements.forEach(el => observer.observe(el));
+
+  //   return () => {
+  //     elements.forEach(el => observer.unobserve(el));
+  //   };
+  // }, []);
+
+
 
   return (
     <section 
+    // ref={sectionRef}
 
     className="mt-10 mx-4 sm:mx-14 lg:mx-20 xl:mx-36">
       {/* why Attend this workshop */}
-      <h1 className="smooth-scroll text-xl md:text-2xl lg:text-3xl text-center font-bold mt-2">
+      <h1 className="  text-xl md:text-2xl lg:text-3xl text-center font-bold mt-2">
               Why Attend This Workshop?
             </h1>
             <div className="flex justify-center mb-4">
@@ -112,7 +143,7 @@ const WorkshopAttens = () => {
             <CheckIcon className="  h-5 w-6 font-bold text-white" />
           </div>
           {/* 3rd point */}
-          <h1 className="sm:ml-4 sm:text-xl overflow-hidden font-bold ">
+          <h1 className="sm:ml-4 pl-2 sm:pl-0 sm:text-xl overflow-hidden font-bold ">
             Tackle how common sales and negotiation challenges stop your
             business.
           </h1>

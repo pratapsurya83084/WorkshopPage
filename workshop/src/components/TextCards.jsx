@@ -57,7 +57,7 @@ const TextCards = () => {
             <h3 className="text-lg font-semibold text-yellow-200">
               Entrepreneurship
             </h3>
-            <p className="my-9 px-5">
+            <p className="my-9 sm:px-5">
               As the CEO and Founder of BISJHINTUS Private Limited, Mr. Adhikari
               has demonstrated exceptional leadership skills in building and
               guiding the company towards growth and success. BISJHINTUS is
@@ -69,7 +69,7 @@ const TextCards = () => {
 
     
         {/* cards2 */}
-        <figure className="  smooth-scroll m-5 flex flex-col items-center justify-center p-8 text-center radius-yellow rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e bg-custom-gray">
+        <figure className="  smooth-scroll m-5 flex flex-col items-center justify-center p-2 sm:p-8 text-center radius-yellow rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e bg-custom-gray">
           <blockquote className="max-w-2xl mx-auto mb-4 lg:mb-8 flex flex-col items-center">
             <img
               className="h-10 mb-2 bg-yellow-400 rounded-full"
@@ -92,7 +92,7 @@ const TextCards = () => {
         </figure>
 
         {/* cards3 */}
-        <figure className="smooth-scroll m-5 flex flex-col items-center  justify-center p-8 text-center  radius-yellow rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e bg-custom-gray">
+        <figure className="smooth-scroll m-5 flex flex-col items-center  justify-center p-2 sm:p-8 text-center  radius-yellow rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e bg-custom-gray">
           <blockquote className="max-w-2xl mx-auto mb-4  lg:mb-8 flex flex-col items-center">
             <img
               className="h-10 mb-2"
@@ -102,7 +102,7 @@ const TextCards = () => {
             <h3 className="text-lg font-semibold mb-3 text-yellow-200">
               Social Activism
             </h3>
-            <p className="my-2 p-3">
+            <p className="my-2 sm:p-3">
               Mr. Adhikari's commitment to social causes is commendable. As a
               public speaker and renowned trainer, he has been actively involved
               in empowering individuals and bridging linguistic diversity.
@@ -113,7 +113,7 @@ const TextCards = () => {
         </figure>
 
         {/* card4 */}
-        <figure className="smooth-scroll m-5 flex flex-col items-center  justify-center p-8 text-center  radius-yellow rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e bg-custom-gray">
+        <figure className="smooth-scroll m-5 flex flex-col items-center  justify-center p-2 sm:p-8 text-center  radius-yellow rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e bg-custom-gray">
           <blockquote className="max-w-2xl mx-auto mb-4  lg:mb-8 flex flex-col items-center ">
             <img className="h-10 mb-2" src="\stakeholder_7740876.png" alt="" />
             <h3 className="text-lg font-semibold  text-yellow-200">
@@ -130,7 +130,7 @@ const TextCards = () => {
         </figure>
 
         {/* card5 */}
-        <figure className="smooth-scroll m-5 flex flex-col items-center  justify-center p-8 text-center  radius-yellow rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e bg-custom-gray">
+        <figure className="smooth-scroll m-5 flex flex-col items-center  justify-center p-2 sm:p-8 text-center  radius-yellow rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e bg-custom-gray">
           <blockquote className="max-w-2xl mx-auto mb-4  lg:mb-8 flex flex-col items-center ">
             <img
               className="h-10 mb-2"
@@ -150,7 +150,7 @@ const TextCards = () => {
         </figure>
 
         {/* card6 */}
-        <figure className="smooth-scroll m-5 flex flex-col items-center  justify-center p-8 text-center  radius-yellow rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e bg-custom-gray">
+        <figure className="smooth-scroll m-5 flex flex-col items-center  justify-center p-2  sm:p-8 text-center  radius-yellow rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e bg-custom-gray">
           <blockquote className="max-w-2xl mx-auto mb-4  lg:mb-8 flex flex-col items-center">
             <img className="h-10 mb-2 bg-yellow-400 rounded-full p-1"
              src="\signpost_13452511.png" alt="" />
