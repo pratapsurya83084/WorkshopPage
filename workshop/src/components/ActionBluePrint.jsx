@@ -70,7 +70,7 @@ Discover What Awaits You
                 <img
                   alt="gallery"
                   className="smooth-scroll radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
-                  src="/public\powerfull_ACtion_img1.png"
+                  src="\powerfull_ACtion_img1.png"
                 />
               </div>
               <h1 className="smooth-scroll text-center mt-4 text-xl">
@@ -83,7 +83,7 @@ Discover What Awaits You
                 <img
                   alt="gallery"
                   className="smooth-scroll radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
-                  src="public\powerfull_Action_img2.png"
+                  src="\powerfull_Action_img2.png"
                 />
               </div>
               <h1 className="smooth-scroll text-center mt-4 text-xl">
@@ -97,7 +97,7 @@ Discover What Awaits You
                 <img
                   alt="gallery"
                   className="smooth-scroll radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
-                  src="/public\powerfull_Action_img3.png"
+                  src="\powerfull_Action_img3.png"
                 />
               </div>
               <h1 className="smooth-scroll text-center mt-4 text-xl">Customized Goal Setting</h1>
@@ -109,7 +109,7 @@ Discover What Awaits You
                 <img
                   alt="gallery"
                   className="smooth-scroll radius-yellow  rounded-3xl inset-0 w-full h-full object-cover object-center"
-                  src="public\Powerfull_Action_img4.png"
+                  src="\Powerfull_Action_img4.png"
                 />
               </div>
               <h1 className="smooth-scroll text-center  mt-4 text-xl">Action-Oriented Sessions</h1>

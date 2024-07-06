@@ -77,7 +77,7 @@ const RevenuPicture = () => {
           <img
             alt="feature"
             className="smooth-scroll object-cover object-center  lg:h-[10%] lg:w-[60%] w-full "
-            src="/public/revenue_picture.png"
+            src="/revenue_picture.png"
           />
         </div>
 

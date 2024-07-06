@@ -42,7 +42,7 @@ const LimitedSeats = () => {
           <img
             className="smooth-scroll radius-yellow object-cover object-center rounded-xl"
             alt="hero"
-            src="/public/Limit_seats_img.png"
+            src="/Limit_seats_img.png"
           />
         </div>
         {/* lg:pr-24 */}
@@ -116,7 +116,7 @@ const LimitedSeats = () => {
           <img
             className="radius-yellow object-cover object-center  md:p-[0px] lg:pl-[2px]   rounded-xl w-5/6 md:h-[290px]  md:w-[400px]  lg:h-[350px] lg:w-[700px]"
             alt="hero"
-            src="/public/Limit_seats_img.png"
+            src="/Limit_seats_img.png"
           />
         </div>
       </div>
