@@ -5,49 +5,49 @@ import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 const FooterSection = () => {
  
  
-  const [nextSaturday, setNextSaturday] = useState(null);
+  // const [nextSaturday, setNextSaturday] = useState(null);
 
-  // Function to calculate the next Saturday date
-  const calculateNextSaturday = () => {
-    const today = new Date();
-    let nextSaturdayDate = new Date(today);
+  // // Function to calculate the next Saturday date
+  // const calculateNextSaturday = () => {
+  //   const today = new Date();
+  //   let nextSaturdayDate = new Date(today);
 
-    // Calculate days until next Saturday (6 for Saturday)
-    const daysUntilNextSaturday = (6 - today.getDay() + 7) % 7;
-    nextSaturdayDate.setDate(today.getDate() + daysUntilNextSaturday);
+  //   // Calculate days until next Saturday (6 for Saturday)
+  //   const daysUntilNextSaturday = (6 - today.getDay() + 7) % 7;
+  //   nextSaturdayDate.setDate(today.getDate() + daysUntilNextSaturday);
 
-    return nextSaturdayDate;
-  };
+  //   return nextSaturdayDate;
+  // };
 
-  useEffect(() => {
-    // Calculate next Saturday when component mounts
-    const initialNextSaturday = calculateNextSaturday();
-    setNextSaturday(initialNextSaturday);
+  // useEffect(() => {
+  //   // Calculate next Saturday when component mounts
+  //   const initialNextSaturday = calculateNextSaturday();
+  //   setNextSaturday(initialNextSaturday);
 
-    // Update next Saturday at midnight
-    const updateNextSaturday = () => {
-      const nextSaturdayDate = calculateNextSaturday();
-      setNextSaturday(nextSaturdayDate);
-    };
+  //   // Update next Saturday at midnight
+  //   const updateNextSaturday = () => {
+  //     const nextSaturdayDate = calculateNextSaturday();
+  //     setNextSaturday(nextSaturdayDate);
+  //   };
 
-    // Calculate milliseconds until next Saturday midnight
-    const today = new Date();
-    const timeUntilNextSaturday = (7 - today.getDay()) % 7 * 24 * 60 * 60 * 1000;
+  //   // Calculate milliseconds until next Saturday midnight
+  //   const today = new Date();
+  //   const timeUntilNextSaturday = (7 - today.getDay()) % 7 * 24 * 60 * 60 * 1000;
     
-    // Set interval to update next Saturday every week
-    const intervalId = setInterval(updateNextSaturday, timeUntilNextSaturday);
+  //   // Set interval to update next Saturday every week
+  //   const intervalId = setInterval(updateNextSaturday, timeUntilNextSaturday);
 
-    // Clean up interval on component unmount
-    return () => clearInterval(intervalId);
-  }, []);
+  //   // Clean up interval on component unmount
+  //   return () => clearInterval(intervalId);
+  // }, []);
 
-  if (!nextSaturday) {
-    return <div>Loading...</div>; // Initial loading state
-  }
+  // if (!nextSaturday) {
+  //   return <div>Loading...</div>; // Initial loading state
+  // }
 
   // Format nextSaturday date and day
-  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-  const formattedDate = nextSaturday.toLocaleDateString('en-US', options);
+  // const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  // const formattedDate = nextSaturday.toLocaleDateString('en-US', options);
     return (
     <footer>
     {/* sm:flex-row sm:justify-between */}
@@ -58,7 +58,9 @@ const FooterSection = () => {
     {/* Blinking text */}
     <h2 className='blinking text-center'>Only 2 Seats Left</h2>
     </div>
-     <p className=' font-bold px-2 text-center'>Enrollment closes on 5.00 AM  {formattedDate}</p>
+     <p className=' font-bold px-2 text-center'>Enrollment closes on 5.00 AM
+        {/* {formattedDate} */} saturday
+        </p>
   </div>
   
   {/* action button */}

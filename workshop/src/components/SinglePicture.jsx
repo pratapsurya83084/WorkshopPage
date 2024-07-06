@@ -6,7 +6,6 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 const SinglePicture = () => {
 
   const sectionRef = useRef(null);
-
   useEffect(() => {
     const section = sectionRef.current;
     const observerOptions = {
