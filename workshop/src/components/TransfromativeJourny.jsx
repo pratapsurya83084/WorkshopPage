@@ -40,8 +40,7 @@ const TransfromativeJourny = () => {
         <div className="flex flex-col w-full mb-2">
           {/* Heading and Subheading are removed */}
           <h1 className="smooth-scroll  text-xl sm:text-2xl md:text-3xl text-center font-bold">
-            Get a glimpse of the transformative journey that awaits you at 
-            this 3-hours weekend workshop{" "}
+          Stay ahead of the competition with advanced sales and negotiation tactics
           </h1>
           <div className="smooth-scroll flex justify-center mb-4">
             <svg

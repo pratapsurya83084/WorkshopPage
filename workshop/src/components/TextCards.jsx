@@ -74,7 +74,7 @@ const TextCards = () => {
             <img
               className="h-10 mb-2 bg-yellow-400 rounded-full"
               // src="\doctor_12106342.png"
-              src="https://cdn-icons-png.freepik.com/512/14141/14141098.png?uid=R153977336&ga=GA1.1.1066618313.1718467903"
+              src="\pharmatical_bottol_image.png"
               alt=""
             />
             <h3 className="text-lg font-semibold text-yellow-200">
