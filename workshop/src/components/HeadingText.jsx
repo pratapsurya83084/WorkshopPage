@@ -46,7 +46,7 @@ const HeadingText = () => {
       <h1 className="smooth-scroll bg-custom-brown   text-center p-6 text-xl sm:text-2xl md:text-3xl font-bold ">
         Transform Your Sales & Negotiation Skills in{" "}
         <b className="text-yellow-200 font-bold">3 Hours</b> Essential for
-        Companies, Professionals, and Students!
+        Companies , Professionals , and  Students!
       </h1>
 
       <h2 className="smooth-scroll text-center  sm:text-xl md:text-2xl p-6 font-bold">
