@@ -52,6 +52,22 @@ const RevenuPicture = () => {
           Discover Sales Real-Life Business Enthusiasts Who Transformed Straight
         <br />  from Those Who Attended My Coaching
         </h4>
+        <div className="smooth-scroll flex justify-center mb-4">
+          <svg
+            width="400"
+            height="30"
+            viewBox="0 0 100 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 15 Q 50 0, 95 15"
+              stroke="yellow"
+              strokeWidth="5"
+              fill="none"
+            />
+          </svg>
+        </div>
         {/* <p className="text-xl mt-5">
             Empowering success with our revenue milestones
           </p> */}
