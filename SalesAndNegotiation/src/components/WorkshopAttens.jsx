@@ -159,12 +159,12 @@ const WorkshopAttens = () => {
 
       <h1 className="smooth-scroll text-center p-3 text-red-500 mt-8 font-bold text-xl md:text-2xl">
         {" "}
-        Starts on
-        <span className="text-center px-2">
+        STARTS ON
+        <span className="text-center px-1">
           {/* {formattedDate} */}
           {/* {nextSaturday.toLocaleDateString('en-US', { weekday: 'long' })} */}
         </span>{" "}
-      saturday | 7 PM - 9 PM
+        SATURDAY  | 7 PM - 9 PM
       </h1>
 
       <div className="smooth-scroll mt- flex items-center justify-center gap-x-6">
