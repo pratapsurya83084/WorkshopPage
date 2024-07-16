@@ -1,93 +1,90 @@
-import React ,{useEffect,useRef} from 'react'
+import React, { useEffect, useRef } from "react";
 
 const CoachSection = () => {
-
-
   const sectionRef = useRef(null);
-
   useEffect(() => {
     const section = sectionRef.current;
     const observerOptions = {
       root: null,
-      rootMargin: '0px',
+      rootMargin: "0px",
       threshold: 0.1,
     };
 
     const observerCallback = (entries, observer) => {
-      entries.forEach(entry => {
+      entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('animate-scroll');
+          entry.target.classList.add("animate-scroll");
         } else {
-          entry.target.classList.remove('animate-scroll');
+          entry.target.classList.remove("animate-scroll");
         }
       });
     };
 
-    const observer = new IntersectionObserver(observerCallback, observerOptions);
-    const elements = section.querySelectorAll('.smooth-scroll');
-    elements.forEach(el => observer.observe(el));
+    const observer = new IntersectionObserver(
+      observerCallback,
+      observerOptions
+    );
+    const elements = section.querySelectorAll(".smooth-scroll");
+    elements.forEach((el) => observer.observe(el));
 
     return () => {
-      elements.forEach(el => observer.unobserve(el));
+      elements.forEach((el) => observer.unobserve(el));
     };
   }, []);
 
   return (
-    <section ref={sectionRef}>
-    <div className="flex flex-col items-center bg-black text-white p-8">
-      <h1 className="smooth-scroll text-xl md:text-2xl lg:text-3xl font-bold mb-4 text-center">
-        Get Acquainted with Your Coach
-      </h1>
-      <div className="smooth-scroll flex justify-center mb-4">
-        <svg
-          width="300"
-          height="30"
-          viewBox="0 0 100 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M5 15 Q 50 0, 95 15"
-            stroke="yellow"
-            strokeWidth="5"
+    <section ref={sectionRef} className="coach-section">
+      <div className="flex flex-col items-center bg-black text-white p-8">
+        <h1 className="text-3xl font-bold mb-4 text-center">
+          Get Acquainted with Your Coach
+        </h1>
+        <div className="flex justify-center mb-4">
+          <svg
+            width="300"
+            height="30"
+            viewBox="0 0 100 20"
             fill="none"
-          />
-        </svg>
-      </div>
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 15 Q 50 0, 95 15"
+              stroke="yellow"
+              strokeWidth="5"
+              fill="none"
+            />
+          </svg>
+        </div>
 
-    
-
-      <div className="flex flex-col justify-between items-center mt-36 radius-yellow bg-custom-brown md:flex-row h-52 lg:w-[600px] w-full rounded-3xl p-4 md:p-8">
-        <div className="flex-shrink-0 flex flex-col items-center md:items-start relative  bottom-24 lg:right-32 ">
-          <img
-            src="\Get Acquainted with Your Coach.png"
-            className="smooth-scroll  radius-yellow rounded-3xl lg:h-[200px] h-[180px]"
-            alt=""
-          />
-          <div className="lg:ml-28 mt-1">
-            <p className=" smooth-scroll mt-4   md:mt-2 text-center md:text-left font-bold text-xl ">
-              Bishop Adhikari  <br />
-              <span className="smooth-scroll md:hidden">  
-                 {/* Decision */}
-                 Business , Sales , Negotiation and Buisness Coach</span>
-            </p>
-            <p className="smooth-scroll hidden md:flex mt-2 md:mt-2 text-center md:text-left font-bold text-xl ">
-            Business , Sales , Negotiation <br />
-            and Buisness Coach
-            </p>
+        <div className="flex flex-col justify-between items-center mt-36 radius-yellow bg-custom-brown md:flex-row h-52 lg:w-[600px] w-full rounded-3xl p-4 md:p-8">
+          <div className="flex-shrink-0 flex flex-col items-center md:items-start relative  bottom-24 lg:right-32 ">
+            <img
+              src="\Get Acquainted with Your Coach.png"
+              className="smooth-scroll radius-yellow rounded-3xl lg:h-[200px] h-[180px]"
+              alt=""
+            />
+            <div className="lg:ml-28 mt-1">
+              <p className="smooth-scroll mt-4   md:mt-2 text-center md:text-left font-bold text-xl ">
+                Bishop Adhikari <br />
+                <span className="smooth-scroll md:hidden"> Decision Business Coach</span>
+              </p>
+              <p className="smooth-scroll hidden md:flex mt-2 md:mt-2 text-center md:text-left font-bold text-xl ">
+                Decision Business Coach
+              </p>
+            </div>
+          </div>
+          <div className=" hidden  md:flex md:mt-0 md:ml- flex-grow  items-center justify-center md:justify-start">
+           
+            <img
+              className="smooth-scroll h-40 md:ml-40 lg:ml-2 bg-yellow-300 rounded-3xl p-2"
+              src="\buisness_coach_icon.png"
+              alt=""
+            />
           </div>
         </div>
-        <div className=" hidden  md:flex md:mt-0 md:ml- flex-grow  items-center justify-center md:justify-start">
-          {/* <h1 className="text-2xl font-bold text-center">Decision Business Coach</h1> */}
-       <img 
-       className="smooth-scroll h-40 md:ml-40 lg:ml-2 bg-yellow-300 rounded-3xl p-2"
-       src="\buisness_coach_icon.png" alt="" />
-        </div>
-      </div>
 
-     
-       {/* cards */}
-      <div className="smooth-scroll  justify-around flex-wrap  grid grid-cols sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-full  mt-8 gap-5  md:gap-x-   lg:gap-x-29 xl-gap-x-10 2xl:ml-[75px]">
+        {/* cards */}
+         {/* cards  2xl:ml-[75px]  ,justify-around  flex-wrap  grid grid-cols justify-center items-center sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-full  mt-8 gap-5  md:gap-x-   lg:gap-x-29 xl-gap-x-10*/}
+      <div className="smooth-scroll flex flex-wrap justify-center  mt-8">
         {/* cards1 */}
         <div className="radius-yellow flex flex-row m-2 items-center w-[300px] h-[170px]  bg-custom-brown text-white rounded-2xl p-4   min-w-[200px]">
           <div>
@@ -319,10 +316,10 @@ const CoachSection = () => {
         </div>
       </div>
 
-      
-    </div>
-  </section>
-  )
-}
 
-export default CoachSection
+      </div>
+    </section>
+  );
+};
+
+export default CoachSection;

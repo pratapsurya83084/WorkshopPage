@@ -167,7 +167,7 @@ const WorkshopAttens = () => {
       saturday | 7 PM - 9 PM
       </h1>
 
-      <div className="smooth-scroll mt-10 flex items-center justify-center gap-x-6">
+      <div className="smooth-scroll mt- flex items-center justify-center gap-x-6">
         <div className="flex mt- items-center pb-5  border-gray-100 mb-5">
           <div className="flex justify-center md:mt- sm:mt-8 py-2 sm:px-2">
             <a href="https://pages.razorpay.com/workshopwithbishop">

@@ -23,13 +23,14 @@ import ScreenshotPicture  from '../components/ScreenshotPicture'
 import PictureSection  from '../components/PictureSection'
 import TextCards  from '../components/TextCards'
 import CompanyPicture  from '../components/CompanyPicture'
-
+import NewsFeature  from  '../components/NewsFeature'
 const Home = () => {
   return (
     <div>
       <HeadingText/>
       <AboutSection/>
       <WorkshopAttens/>
+      <NewsFeature/>
       <ActionBluePrint/>
       <LimitedSeats/>
       <InspiringFeedback/>

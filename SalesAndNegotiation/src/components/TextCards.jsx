@@ -37,10 +37,10 @@ const TextCards = () => {
     ref={sectionRef}
     >
       <h1 className="smooth-scroll text-xl md:text-2xl lg:text-3xl font-bold text-center mt-10 px-4">
-        Mr. Bishop Adhikari is a dynamic and multifaceted individual,excelling
-        in various fields.He is an entrepreneur,social activist and a prominent
+        Mr. Bishop Adhikari is a dynamic and multifaceted individual , excelling
+        in various fields.He is an entrepreneur , social activist and a prominent
         figure in the realm of leadership and management. With a passion for
-        innovation and a vision for a better future,he has founded and led
+        innovation and a vision for a better future , he has founded and led
         multiple successful ventures
       </h1>
       {/* radius-yellow */}

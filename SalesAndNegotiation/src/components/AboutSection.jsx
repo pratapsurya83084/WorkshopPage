@@ -104,7 +104,7 @@ const AboutSection = () => {
                 <img
                   // md:ml-[200px] h-[500px],object-cover
                   className="radius-yellow  h-[300px] sm:mx-auto  sm:h-[500px] md:h-[460px]  xl:h-[400px] lg:w-[500px]    p-  w-full  rounded-3xl"
-                  src="/MY PICTURE AT FIRST.png" // Make sure your image path is correct
+                  src="\TRAINGS PAGE .png" // Make sure your image path is correct
                   alt="WorkshopImage"
                 />
                 <h1 className="animate-move-x-reverse font-bold absolute mt-32 left-58  bottom-20 sm:bottom-40 md:bottom-40 lg:bottom-36  xl:bottom-52 md:mt-60 md:left-[450px] lg:left-[150px] lg:mt-[270px] right-0 text-4xl sm:text-4xl md:text-5xl lg:text-5xl lg:font-bold text-black mb-4 mr-4 lg:text-right">
@@ -131,6 +131,7 @@ const AboutSection = () => {
             3 Hours Weekend Workshop with Me? Are you <br />
             ready to improve your next negotiation skill set?
           </div>
+          
           <div className="smooth-scroll image-section">
             <div className=" lg:w-auto xl:ml-10 sm:p-4  lg:mb-0">
               {/* overflow-hidden */}
@@ -142,7 +143,7 @@ const AboutSection = () => {
                 <img
                   // md:ml-[200px] h-[500px],object-cover
                   className="radius-yellow  h-[300px] sm:mx-auto  sm:h-[500px] md:h-[460px]  xl:h-[400px] lg:w-[500px]    p-  w-full  rounded-3xl"
-                  src="/MY PICTURE AT FIRST.png" // Make sure your image path is correct
+                  src="\TRAINGS PAGE .png" // Make sure your image path is correct
                   alt="WorkshopImage"
                 />
                 <h1 className="animate-move-x-reverse font-bold absolute mt-32 left-58  bottom-20 sm:bottom-40 md:bottom-40 lg:bottom-36  xl:bottom-52 md:mt-60 md:left-[450px] lg:left-[150px] lg:mt-[270px] right-0 text-4xl sm:text-4xl md:text-5xl lg:text-5xl lg:font-bold text-black mb-4 mr-4 lg:text-right">
@@ -151,55 +152,9 @@ const AboutSection = () => {
               </div>
             </div>
           </div>
+
         </div>
       </div>
-
-      {/* <section className=" pb-12 pt- sm:pb-16 sm:pt-12 lg:pb-24 xl:pb-32 xl:pt-10">
-        <div className=" mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            
-            <h1 className="text-2xl font-bold mt-2">
-              Why Attend This Workshop?
-            </h1>
-            <div className="flex justify-center mb-4">
-              <svg
-                width="200"
-                height="20"
-                viewBox="0 0 100 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M5 15 Q 50 0, 95 15"
-                  stroke="yellow"
-                  strokeWidth="5"
-                  fill="none"
-                />
-              </svg>
-            </div>
-            
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-
-                <div className="flex mt- items-center pb-5  border-gray-100 mb-5">
-                  <div className="flex justify-center md:mt- sm:mt-8 py-2 sm:px-2">
-                  <a href="https://pages.razorpay.com/workshopwithbishop">
-                    <button className="bg-blue-600 text-white md:text-xl font-bold py-2 px-6 rounded-xl md:mb-4 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-between space-x-4">
-                      <span className="flex-grow text-center">
-                        Action Now for ₹199
-                      </span>
-                      <FontAwesomeIcon
-                        icon={faGreaterThan}
-                        className="bg-white text-blue-500 px-4 p-2 rounded-lg"
-                      />
-                    </button>
-              </a>
-                  </div>
-                </div>
-              
-            </div>
-          </div>
-        </div>
-      </section> */}
     </section>
   );
 };
