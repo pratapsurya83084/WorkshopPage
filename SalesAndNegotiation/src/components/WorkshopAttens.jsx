@@ -150,7 +150,7 @@ const WorkshopAttens = () => {
             <CheckIcon className="  h-5 w-6 font-bold text-white" />
           </div>
           {/* 4th point */}
-          <h1 className="smooth-scroll sm:text-xl overflow-hidden font-bold ">
+          <h1 className="smooth-scroll sm:text-xl pl-2 overflow-hidden font-bold ">
             Unlock your guaranteed outcomes with the workshop's actionable sales
             and negotiation steps.
           </h1>

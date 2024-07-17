@@ -81,7 +81,7 @@ const SeminarSection = () => {
         <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
       </div>
       <p className="smooth-scroll p-3 md:p-3">
-      <b>Executives, Managers, and Professionals in Corporate Settings : </b>
+      <b>Executives , Managers , and Professionals in Corporate Settings : </b>
        Great for those looking to enhance their leadership and 
         decision-making 
       skills to drive their teams and businesses forward
@@ -142,7 +142,7 @@ const SeminarSection = () => {
       </div>
       </div>
       <p className="smooth-scroll p-3 md:p-3">
-      <b>Individuals Not Serious About Their Business and Future Grwoth :</b> This workshop is designed for those committed to making significant improvements
+      <b>Individuals Not Serious About Their Business and Future Grwoth : </b> This workshop is designed for those committed to making significant improvements
       </p>
     </div>
     <div className="radius-yellow px-2 rounded-xl bg-gray flex items-center space-x-2 mt-2">
@@ -157,7 +157,8 @@ const SeminarSection = () => {
       </div>
       </div>
       <p className="smooth-scroll p-3 md:p-3">
-      <b>Those Unwilling to Engage in Active Learning and Implementation :</b> Active participation and application of the skills learned are crucial for success
+      <b>Those Unwilling to Engage in Active Learning and Implementation : </b> 
+      Active participation and application of the skills learned are crucial for success
       </p>
     </div>
       </div>

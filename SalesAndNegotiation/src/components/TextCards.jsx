@@ -38,7 +38,7 @@ const TextCards = () => {
     >
       <h1 className="smooth-scroll text-xl md:text-2xl lg:text-3xl font-bold text-center mt-10 px-4">
         Mr. Bishop Adhikari is a dynamic and multifaceted individual , excelling
-        in various fields.He is an entrepreneur , social activist and a prominent
+        in various fields. He is an entrepreneur , social activist and a prominent
         figure in the realm of leadership and management. With a passion for
         innovation and a vision for a better future , he has founded and led
         multiple successful ventures
@@ -81,10 +81,10 @@ const TextCards = () => {
               Pharmaceutical Expertise
             </h3>
             <p className="my-6">
-              In addition to his role at BISJHINTUS, Mr. Adhikari is a
+              In addition to his role at BISJHINTUS , Mr. Adhikari is a
               trailblazer in the Pharmaceutical sector. He is the Founder of
-              Ricabi Life Science, where he held the position of CXO, and
-              Recombio Pharmalife as the COO. Under his guidance, both companies
+              Ricabi Life Science , where he held the position of CXO , and
+              Recombio Pharmalife as the COO. Under his guidance , both companies
               have contributed significantly to advancements in science and
               patient care
             </p>
@@ -104,9 +104,9 @@ const TextCards = () => {
             </h3>
             <p className="my-2 sm:p-3">
               Mr. Adhikari's commitment to social causes is commendable. As a
-              public speaker and renowned trainer, he has been actively involved
+              public speaker and renowned trainer , he has been actively involved
               in empowering individuals and bridging linguistic diversity.
-              Through his work, he promotes empathy and invests in the future by
+              Through his work , he promotes empathy and invests in the future by
               uplifting underprivileged communities
             </p>
           </blockquote>
@@ -141,7 +141,7 @@ const TextCards = () => {
               Independent Director and Philanthropy
             </h3>
             <p className="my-7">
-              Mr. Adhikari serves as an Independent Director for the Core NGO, a
+              Mr. Adhikari serves as an Independent Director for the Core NGO , a
               network of seven NGOs dedicated to addressing critical social
               issues. His involvement in this capacity showcases his dedication
               to making a positive impact on society
@@ -158,8 +158,8 @@ const TextCards = () => {
               Educational Journey
             </h3>
             <p className="my-9 p-">
-              Alongside his successful professional journey, Mr. Adhikari is a
-              Ph.D. candidate, driven by a thirst for knowledge. He has proven
+              Alongside his successful professional journey , Mr. Adhikari is a
+              Ph.D. candidate , driven by a thirst for knowledge. He has proven
               himself to be a lifelong learner and a highly accomplished
               scientific achiever
             </p>

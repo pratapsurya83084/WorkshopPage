@@ -82,10 +82,10 @@ const CompanyPicture = () => {
             Commemorate your workshop achievements
           </h1>
           <p>
-            Upon the completion of the workshop,you'll receive an official
+            Upon the completion of the workshop , you'll receive an official
             certificate validating your successful participation in the
             <br />
-            2-day Entrepreneurship & Management Workshop,signifying your mastery
+            2-day Entrepreneurship & Management Workshop , signifying your mastery
             of key business fundamentals
           </p>
           <a href="https://pages.razorpay.com/workshopwithbishop">
