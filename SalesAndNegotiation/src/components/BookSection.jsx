@@ -49,7 +49,8 @@ const BookSection = () => {
     ref={sectionRef}
     className="">
       <h1 className="smooth-scroll carousel-section text-center mt-10 p-4 text-xl sm:text-2xl md:text-3xl font-bold">
-            Claim these incredible additions  free bees in the workshop for your future experience !
+            Claim these incredible additional
+           freebies in the workshop for your future experience !
             {/* free beeis to your workshop future experience! */}
            
             <div className="smooth-scroll flex justify-center mb-4">

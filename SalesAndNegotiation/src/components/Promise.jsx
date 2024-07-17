@@ -67,21 +67,23 @@ const Promise = () => {
       </div>
 
       <div className="p-4">
-        <h1 className='font-bold smooth-scroll'>Dear Sir/Madam ,</h1> <br />
+        <h1 className='font-bold smooth-scroll'>Dear Sir/Madam,</h1> <br />
         <p className='smooth-scroll md:text-xl'>
           {" "}
           I am dedicated to supporting your business growth journey and
           sharing invaluable insights that have positively impacted over
           1,90,000+ individuals. I personally ensure that every attendee of our
-          seminars receives more value than they anticipated. If , for any
-          reason , you attend our seminar and feel that you haven't gained the
-          expected value , I take full responsibility. Therefore , I promise a
+          seminars receives more value than they anticipated. If, for any
+          reason, you attend our seminar and feel that you haven't gained the
+          expected value, I take full responsibility. Therefore, I promise a
           complete refund of the seminar fee of Rs 199. Simply email me at 
           {/* px-2 */}
-         <span className="smooth-scroll  text-yellow-200 ml-2">ceobishophumane@bisjhintus.com</span> , and my team will promptly process
+         <span className="smooth-scroll  text-yellow-200 ml-2">
+          "ceobishophumane@bisjhintus.com"
+          </span>  and my team will promptly process
           your refund.
         </p>
-        <p className="smooth-scroll mt-10">Best Regards ,<br />
+        <p className="smooth-scroll mt-10">Best Regards,<br />
          Bishop Adhikari</p>
         <img  className="smooth-scroll h-[60px] mt-2 w-[140px]" src="\Screenshot 2024-06-24 122629.png" alt="" />
       </div>

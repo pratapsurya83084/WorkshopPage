@@ -78,7 +78,7 @@ const ActionBluePrint = () => {
               </div>
               <h1 className="smooth-scroll text-center mt-4 text-xl">
                 {/* Networking PowerHouse Strategies */}
-                Networking Powerhouse strategies
+                Networking Powerhouse Strategies
               </h1>
             </div>
             {/* card2 */}

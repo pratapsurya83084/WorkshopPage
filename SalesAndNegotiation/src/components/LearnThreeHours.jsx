@@ -41,7 +41,8 @@ const LearnThreeHours = () => {
         className="fourHours-learnSection-section">
       <div className="flex flex-col justify-center items-center mx-10 mt-10">
         <h1 className="smooth-scroll text-center text-xl sm:text-2xl md:text-3xl font-bold">
-        These 3 hours will revolutionize your approach with advanced sales and negotiation techniques and strategies
+        These 3 hours will revolutionize your approach to 
+         advanced sales with negotiation techniques and strategies
         </h1>
         <div className="smooth-scroll flex justify-center mb-4">
           <svg
@@ -75,7 +76,7 @@ const LearnThreeHours = () => {
               02
             </div>
             <div className="smooth-scroll font-bold px-4 mt-2 py-7">
-            1+ Hour Free Consultation business analytic session with me
+            1+ Hour Free Consultation business analytical session with me
 
             </div>
           </div>
@@ -117,7 +118,7 @@ const LearnThreeHours = () => {
             <div className="smooth-scroll text-2xl font-bold tracking-tight text-black py-4 px-4 mt-8 bg-yellow-200 mb-7 rounded-tr-2xl rounded-br-2xl">
               06
             </div>
-            <div className="smooth-scroll font-bold px-4 py-7">
+            <div className="smooth-scroll mt-3 font-bold px-4 py-7">
             20+ Exclusive E-Books on Advanced Sales Techniques
 
             </div>

@@ -8,8 +8,8 @@ const RevenuPicture = () => {
 
   const points = [
     "Action-Oriented 3 Hours",
-    "Networking Pro Secrets",
-    "Tailored Negotiation Tactical Goals"
+    " Pro Secrets For Networking",
+    "Tailored Goals For Negotiation Tactics "
   ];
 
 
@@ -49,8 +49,9 @@ const RevenuPicture = () => {
     className="mt-10 body-font text-center">
       <div className="text-2xl font-bold p-2 mb-">
         <h4 className="smooth-scroll">
-          Discover Sales Real-Life Business Enthusiasts Who Transformed Straight
-        <br />  from Those Who Attended My Coaching
+          Discover Sales Real-Life Business Enthusiasts Who have  
+           Transformed Straight
+         after Attending My Coaching
         </h4>
         <div className="smooth-scroll flex justify-center mb-4">
           <svg
@@ -98,7 +99,7 @@ const RevenuPicture = () => {
         </div>
 
         <h1 className="smooth-scroll text-xl font-bold p-4 mt-4 md:text-2xl lg:text-3xl xl:text-3xl">
-          Just look a view how much they closed the deal
+          Just  have a look at how much they closed the deal
         </h1>
         <br />
 

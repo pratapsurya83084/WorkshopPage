@@ -57,7 +57,7 @@ const SeminarSection = () => {
       </div>
       <p className="smooth-scroll p-3 md:p-3">
       <b>Individuals with Startup Ventures or Established Businesses  
-      or Sales professionals  and management students : </b> Perfect     
+      or Sales professionals  and Management students : </b> Perfect     
         for those seeking to improve their sales and 
       negotiation skills 
        for business growth
@@ -81,7 +81,7 @@ const SeminarSection = () => {
         <CheckIcon className="h-4 w-4 bg-green-500 rounded-full" />
       </div>
       <p className="smooth-scroll p-3 md:p-3">
-      <b>Executives , Managers , and Professionals in Corporate Settings : </b>
+      <b>Executives, Managers and Professionals in Corporate Settings : </b>
        Great for those looking to enhance their leadership and 
         decision-making 
       skills to drive their teams and businesses forward
@@ -126,7 +126,8 @@ const SeminarSection = () => {
 </div>
       </div>
       <p className="smooth-scroll p-3 md:p-3">
-     <b>Non-Leaders : </b>  Individuals who don't see themselves as leaders may not benefit from this training
+     <b>Non-Leaders : </b>  Individuals who don't see themselves as
+      leaders may not benefit from this training
       </p>
     </div>
 

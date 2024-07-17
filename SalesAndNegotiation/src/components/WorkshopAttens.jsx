@@ -119,7 +119,7 @@ const WorkshopAttens = () => {
           {/* 1st point */}
           <h1 className="smooth-scroll sm:p-2  sm:text-xl font-bold ">
             Why is enhancing your profit margins with impactful negotiation
-            strategies required? <br />
+            strategies required ? <br />
           </h1>
         </div>
 
@@ -129,8 +129,8 @@ const WorkshopAttens = () => {
           </div>
           {/* 2st point */}
           <h1 className="smooth-scroll sm:p-2 sm:text-xl font-bold ">
-            Why do people compromise their quality or efficiency , and learn how
-            to improve? <br />
+            Why do people compromise their quality or efficiency, and learn how
+            to improve ? <br />
           </h1>
         </div>
 

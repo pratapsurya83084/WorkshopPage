@@ -38,7 +38,7 @@ const ScreenshotPicture = () => {
     >
       <h1 className="smooth-scroll text-center text-xl sm:text-2xl md:text-3xl font-bold p-4 mt-10">
         Ignite your inner visionary and join our exclusive workshop to scale
-        your buisness and career unleash your full potential
+        your buisness and career. Unleash your full potential
          {/* -just like this empowered
         entrepreneurs who transformed their futures */}
         <div className=" smooth-scroll flex justify-center mb-4">
